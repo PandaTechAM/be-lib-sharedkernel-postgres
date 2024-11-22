@@ -1,11 +1,9 @@
-using System;
 using System.Globalization;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions.Infrastructure;
-using JetBrains.Annotations;
 
-namespace EFCore.NamingConventions.Temp.Internal;
+namespace SharedKernel.Postgres.TempEFCoreNaming.Internal;
 
 public class NamingConventionSetPlugin : IConventionSetPlugin
 {

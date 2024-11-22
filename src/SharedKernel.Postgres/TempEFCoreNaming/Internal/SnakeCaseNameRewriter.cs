@@ -1,8 +1,7 @@
-using System;
 using System.Globalization;
 using System.Text;
 
-namespace EFCore.NamingConventions.Temp.Internal;
+namespace SharedKernel.Postgres.TempEFCoreNaming.Internal;
 
 public class SnakeCaseNameRewriter : INameRewriter
 {

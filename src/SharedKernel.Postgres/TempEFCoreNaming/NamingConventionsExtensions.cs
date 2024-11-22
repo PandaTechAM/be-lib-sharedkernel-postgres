@@ -1,7 +1,6 @@
 using System.Globalization;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using JetBrains.Annotations;
-using EFCore.NamingConventions.Temp.Internal;
+using NamingConventionsOptionsExtension = SharedKernel.Postgres.TempEFCoreNaming.Internal.NamingConventionsOptionsExtension;
 
 // ReSharper disable once CheckNamespace
 namespace Microsoft.EntityFrameworkCore;

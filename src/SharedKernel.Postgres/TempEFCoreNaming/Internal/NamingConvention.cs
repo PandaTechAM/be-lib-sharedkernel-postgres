@@ -1,4 +1,4 @@
-namespace EFCore.NamingConventions.Temp.Internal;
+namespace SharedKernel.Postgres.TempEFCoreNaming.Internal;
 
 public enum NamingConvention
 {
