@@ -12,7 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\PandaNuGet\PandaNuGet.csproj"/>
+        <ProjectReference Include="..\..\src\SharedKernel.Postgres\SharedKernel.Postgres.csproj" />
     </ItemGroup>
 
 </Project>

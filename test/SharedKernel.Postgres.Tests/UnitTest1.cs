@@ -1,4 +1,4 @@
-namespace PandaNuGet.Tests;
+namespace SharedKernel.Postgres.Tests;
 
 public class UnitTest1
 {

@@ -1,8 +1,7 @@
-﻿namespace PandaNuGet;
+﻿namespace SharedKernel.Postgres;
 
 public class Class1
 {
-    //todo refactor lib and test names using PascalCase and not adding Pandatech. prefix
     //Refactor NuGet package .csproj file
     //Refactor CI/CD pipeline
     //UPDATE README both in the project and outside of project. Outside is for github, inside is for nuget.org
