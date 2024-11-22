@@ -1,11 +1,9 @@
-using System;
-using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace EFCore.NamingConventions.Temp.Internal;
+namespace SharedKernel.Postgres.TempEFCoreNaming.Internal;
 
 public class NamingConventionsOptionsExtension : IDbContextOptionsExtension
 {

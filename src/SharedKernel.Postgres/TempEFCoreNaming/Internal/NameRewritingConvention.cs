@@ -1,14 +1,11 @@
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions.Infrastructure;
 
-namespace EFCore.NamingConventions.Temp.Internal;
+namespace SharedKernel.Postgres.TempEFCoreNaming.Internal;
 
 public class NameRewritingConvention :
     IEntityTypeAddedConvention,
