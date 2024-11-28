@@ -17,7 +17,7 @@ public static class WebAppExtensions
          options
             .UseNpgsql(connectionString)
             .UseQueryLocks()
-            .UseSnakeCaseNamingConvention() //todo This is temporariy compiled version. Switch to actual version when available
+            .UseSnakeCaseNamingConvention()
             .UseExceptionProcessor();
       });
 
