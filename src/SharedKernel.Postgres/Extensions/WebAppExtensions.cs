@@ -1,12 +1,10 @@
-﻿using System.Reflection;
-using AuditTrail.Abstractions;
-using AuditTrail.Extensions;
+﻿using EFCore.Audit.Extensions;
+using EFCore.AuditBase.Extensions;
 using EFCore.PostgresExtensions.Extensions;
 using EntityFramework.Exceptions.PostgreSQL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using SharedKernel.Postgres.AuditTrail;
 
 namespace SharedKernel.Postgres.Extensions;
 
@@ -16,13 +14,10 @@ public static class WebAppExtensions
       string connectionString)
       where TContext : DbContext
    {
-      builder.Services.AddDbContextPool<TContext>(options =>
+      builder.Services.AddDbContext<TContext>(options =>
       {
          options
-            .UseNpgsql(connectionString)
-            .UseQueryLocks()
-            .UseSnakeCaseNamingConvention()
-            .UseExceptionProcessor();
+            .AddStandardOptions(connectionString);
       });
 
       builder.AddPostgresHealthCheck(connectionString);
@@ -30,26 +25,41 @@ public static class WebAppExtensions
       return builder;
    }
 
-   public static WebApplicationBuilder AddPostgresContextWithAuditTrail<TContext, TPermission, TConsumer>(
-      this WebApplicationBuilder builder,
-      string connectionString,
-      params Assembly[] assemblies)
+   public static WebApplicationBuilder AddPostgresContextPool<TContext>(this WebApplicationBuilder builder,
+      string connectionString)
       where TContext : DbContext
-      where TConsumer : class, IAuditTrailConsumer<TPermission, TContext>
-
    {
-      builder.Services.AddAuditTrail<TPermission, TConsumer, AuditTrailDecryption, TContext>(assemblies,
-         s => s.AutoOpenTransaction = true);
+      builder.Services.AddDbContextPool<TContext>(options =>
+      {
+         options.AddStandardOptions(connectionString);
+      });
 
+      builder.AddPostgresHealthCheck(connectionString);
 
+      return builder;
+   }
+
+   public static WebApplicationBuilder AddPostgresContextWithAuditTrail<TContext>(this WebApplicationBuilder builder,
+      string connectionString) where TContext : DbContext
+   {
+      builder.Services.AddDbContext<TContext>((sp, options) =>
+      {
+         options.AddStandardOptions(connectionString)
+                .AddAuditTrailInterceptors(sp);
+      });
+
+      builder.AddPostgresHealthCheck(connectionString);
+
+      return builder;
+   }
+
+   public static WebApplicationBuilder AddPostgresContextPoolWithAuditTrail<TContext>(this WebApplicationBuilder builder,
+      string connectionString) where TContext : DbContext
+   {
       builder.Services.AddDbContextPool<TContext>((sp, options) =>
       {
-         options
-            .UseNpgsql(connectionString)
-            .UseQueryLocks()
-            .UseSnakeCaseNamingConvention()
-            .UseExceptionProcessor()
-            .UseAuditTrail<TPermission, TContext>(sp);
+         options.AddStandardOptions(connectionString)
+                .AddAuditTrailInterceptors(sp);
       });
 
       builder.AddPostgresHealthCheck(connectionString);
@@ -64,5 +74,16 @@ public static class WebAppExtensions
       var dbContext = scope.ServiceProvider.GetRequiredService<TContext>();
       dbContext.Database.Migrate();
       return app;
+   }
+
+   private static DbContextOptionsBuilder AddStandardOptions(this DbContextOptionsBuilder optionsBuilder,
+      string connectionString)
+   {
+      return optionsBuilder
+             .UseNpgsql(connectionString)
+             .UseQueryLocks()
+             .UseAuditBaseValidatorInterceptor()
+             .UseSnakeCaseNamingConvention()
+             .UseExceptionProcessor();
    }
 }
