@@ -8,13 +8,13 @@
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <Authors>Pandatech</Authors>
         <Copyright>MIT</Copyright>
-        <Version>1.0.8</Version>
+        <Version>1.0.9</Version>
         <PackageId>Pandatech.SharedKernel.Postgres</PackageId>
         <Title>Pandatech.SharedKernel.Postgres</Title>
         <PackageTags>Pandatech; PostgreSQL; Entity Framework Core; EF Core; Health Checks; Exception Handling; Database Migration; .NET; ASP.NET Core; Shared Kernel</PackageTags>
         <Description>Pandatech.SharedKernel.Postgres simplifies PostgreSQL integration in ASP.NET Core applications by providing utilities for Entity Framework Core setup, health checks, and other enhancements.</Description>
         <RepositoryUrl>https://github.com/PandaTechAM/be-lib-sharedkernel-postgres</RepositoryUrl>
-        <PackageReleaseNotes>Added AuditTrail</PackageReleaseNotes>
+        <PackageReleaseNotes>Nuget updates</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
@@ -30,7 +30,7 @@
         <PackageReference Include="EntityFrameworkCore.Exceptions.PostgreSQL" Version="8.1.3" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
         <PackageReference Include="Pandatech.Crypto" Version="4.1.1" />
-        <PackageReference Include="Pandatech.EFCore.Audit" Version="1.0.0" />
+        <PackageReference Include="Pandatech.EFCore.Audit" Version="1.1.0" />
         <PackageReference Include="Pandatech.EFCore.AuditBase" Version="3.0.0" />
         <PackageReference Include="Pandatech.EFCore.PostgresExtensions" Version="4.0.0" />
         <PackageReference Include="PandaTech.FileExporter" Version="4.0.0" />
