@@ -8,7 +8,7 @@
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <Authors>Pandatech</Authors>
         <Copyright>MIT</Copyright>
-        <Version>1.0.21</Version>
+        <Version>1.0.22</Version>
         <PackageId>Pandatech.SharedKernel.Postgres</PackageId>
         <Title>Pandatech.SharedKernel.Postgres</Title>
         <PackageTags>Pandatech; PostgreSQL; Entity Framework Core; EF Core; Health Checks; Exception Handling; Database Migration; .NET; ASP.NET Core; Shared Kernel</PackageTags>
@@ -33,11 +33,11 @@
         <PackageReference Include="EntityFrameworkCore.Exceptions.PostgreSQL" Version="8.1.3" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" />
         <PackageReference Include="Pandatech.Crypto" Version="4.1.2" />
-        <PackageReference Include="Pandatech.EFCore.Audit" Version="1.2.2" />
-        <PackageReference Include="Pandatech.EFCore.AuditBase" Version="3.0.2" />
-        <PackageReference Include="Pandatech.EFCore.PostgresExtensions" Version="4.0.1" />
-        <PackageReference Include="PandaTech.FluentImporter" Version="3.0.1" />
-        <PackageReference Include="Pandatech.GridifyExtensions" Version="2.0.3" />
+        <PackageReference Include="Pandatech.EFCore.Audit" Version="1.2.3" />
+        <PackageReference Include="Pandatech.EFCore.AuditBase" Version="3.0.3" />
+        <PackageReference Include="Pandatech.EFCore.PostgresExtensions" Version="4.0.2" />
+        <PackageReference Include="PandaTech.FluentImporter" Version="3.0.2" />
+        <PackageReference Include="Pandatech.GridifyExtensions" Version="2.0.4" />
     </ItemGroup>
 
 </Project>
