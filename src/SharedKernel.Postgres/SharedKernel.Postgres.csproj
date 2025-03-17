@@ -8,13 +8,13 @@
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <Authors>Pandatech</Authors>
         <Copyright>MIT</Copyright>
-        <Version>1.0.22</Version>
+        <Version>1.0.23</Version>
         <PackageId>Pandatech.SharedKernel.Postgres</PackageId>
         <Title>Pandatech.SharedKernel.Postgres</Title>
         <PackageTags>Pandatech; PostgreSQL; Entity Framework Core; EF Core; Health Checks; Exception Handling; Database Migration; .NET; ASP.NET Core; Shared Kernel</PackageTags>
         <Description>Pandatech.SharedKernel.Postgres simplifies PostgreSQL integration in ASP.NET Core applications by providing utilities for Entity Framework Core setup, health checks, and other enhancements.</Description>
         <RepositoryUrl>https://github.com/PandaTechAM/be-lib-sharedkernel-postgres</RepositoryUrl>
-        <PackageReleaseNotes>Nuget updates</PackageReleaseNotes>
+        <PackageReleaseNotes>Default delete restriction method added</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
