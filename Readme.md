@@ -85,7 +85,6 @@ This package relies on several NuGet packages to provide extended functionality:
 - Pandatech.EFCore.AuditBase: Audit logging for EF Core entities.
 - Pandatech.EFCore.PostgresExtensions: Additional extensions for EF Core and PostgreSQL.
 - PandaTech.FileExporter: Utilities for exporting files.
-- PandaTech.FluentImporter: Fluent API for importing data.
 - Pandatech.GridifyExtensions: Extensions for Gridify, simplifying data filtering and pagination.
 - Pandatech.SharedKernel: Core shared kernel functionalities.
 
