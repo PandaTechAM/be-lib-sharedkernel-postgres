@@ -8,7 +8,7 @@
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <Authors>Pandatech</Authors>
         <Copyright>MIT</Copyright>
-        <Version>1.0.37</Version>
+        <Version>1.0.38</Version>
         <PackageId>Pandatech.SharedKernel.Postgres</PackageId>
         <Title>Pandatech.SharedKernel.Postgres</Title>
         <PackageTags>Pandatech; PostgreSQL; Entity Framework Core; EF Core; Health Checks; Exception Handling; Database Migration; .NET; ASP.NET Core; Shared Kernel</PackageTags>
@@ -35,7 +35,7 @@
         <PackageReference Include="Pandatech.EFCore.Audit" Version="1.2.5" />
         <PackageReference Include="Pandatech.EFCore.AuditBase" Version="3.0.10" />
         <PackageReference Include="Pandatech.EFCore.PostgresExtensions" Version="5.1.3" />
-        <PackageReference Include="Pandatech.GridifyExtensions" Version="2.1.3" />
+        <PackageReference Include="Pandatech.GridifyExtensions" Version="2.1.4" />
     </ItemGroup>
 
 </Project>
