@@ -1,5 +1,4 @@
-﻿using GridifyExtensions.DbContextFunction;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace SharedKernel.Postgres.Demo;
 
