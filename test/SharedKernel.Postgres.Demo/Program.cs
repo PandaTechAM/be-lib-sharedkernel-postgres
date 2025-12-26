@@ -12,7 +12,6 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-app.MigrateDatabase<MyDbContext>();
 app.MapOpenApi();
 
 app.Run();
