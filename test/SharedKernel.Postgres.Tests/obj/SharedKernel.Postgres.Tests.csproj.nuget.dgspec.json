@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\HaikAsatryan\\Desktop\\PandaWork\\projects\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\HaikAsatryan\\Desktop\\PandaWork\\projects\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj",
         "projectName": "Pandatech.SharedKernel.Postgres",
@@ -56,7 +56,7 @@
             },
             "EFCore.BulkExtensions.PostgreSql": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[10.0.0-rc.2, )"
             },
             "EFCore.NamingConventions": {
               "target": "Package",
@@ -443,7 +443,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[18.0.0, )"
+              "version": "[18.0.1, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

@@ -1,24 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "uhyBcSHr7bY=",
-  "success": false,
+  "dgSpecHash": "3DecYjG4ZYA=",
+  "success": true,
   "projectFilePath": "C:\\Users\\HaikAsatryan\\Desktop\\PandaWork\\projects\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Demo\\SharedKernel.Postgres.Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\9.0.0\\aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512",
-    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\efcore.bulkextensions.core\\9.0.2\\efcore.bulkextensions.core.9.0.2.nupkg.sha512",
-    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\efcore.bulkextensions.postgresql\\9.0.2\\efcore.bulkextensions.postgresql.9.0.2.nupkg.sha512",
+    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\efcore.bulkextensions.core\\10.0.0-rc.2\\efcore.bulkextensions.core.10.0.0-rc.2.nupkg.sha512",
+    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\efcore.bulkextensions.postgresql\\10.0.0-rc.2\\efcore.bulkextensions.postgresql.10.0.0-rc.2.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\efcore.namingconventions\\10.0.0-rc.2\\efcore.namingconventions.10.0.0-rc.2.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\entityframeworkcore.exceptions.common\\8.1.3\\entityframeworkcore.exceptions.common.8.1.3.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\entityframeworkcore.exceptions.postgresql\\8.1.3\\entityframeworkcore.exceptions.postgresql.8.1.3.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\gridify\\2.17.2\\gridify.2.17.2.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\gridify.entityframework\\2.17.2\\gridify.entityframework.2.17.2.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\medalliontopologicalsort\\1.0.0\\medalliontopologicalsort.1.0.0.nupkg.sha512",
-    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.1\\microsoft.entityframeworkcore.10.0.1.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.1\\microsoft.entityframeworkcore.abstractions.10.0.1.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.1\\microsoft.entityframeworkcore.analyzers.10.0.1.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.1\\microsoft.entityframeworkcore.relational.10.0.1.nupkg.sha512",
-    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\nettopologysuite\\2.6.0\\nettopologysuite.2.6.0.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\npgsql\\10.0.0\\npgsql.10.0.0.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\10.0.0\\npgsql.entityframeworkcore.postgresql.10.0.0.nupkg.sha512",
@@ -28,17 +28,5 @@
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\pandatech.efcore.postgresextensions\\6.0.0\\pandatech.efcore.postgresextensions.6.0.0.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\pandatech.gridifyextensions\\3.0.0\\pandatech.gridifyextensions.3.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.AspNetCore.OpenApi from 10.0.1 to 9.0.8. Reference the package directly from the project to select a different version. \r\n SharedKernel.Postgres.Demo -> Pandatech.SharedKernel.Postgres -> Microsoft.AspNetCore.OpenApi (>= 10.0.1) \r\n SharedKernel.Postgres.Demo -> Microsoft.AspNetCore.OpenApi (>= 9.0.8)",
-      "projectPath": "C:\\Users\\HaikAsatryan\\Desktop\\PandaWork\\projects\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Demo\\SharedKernel.Postgres.Demo.csproj",
-      "filePath": "C:\\Users\\HaikAsatryan\\Desktop\\PandaWork\\projects\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Demo\\SharedKernel.Postgres.Demo.csproj",
-      "libraryId": "Microsoft.AspNetCore.OpenApi",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }
