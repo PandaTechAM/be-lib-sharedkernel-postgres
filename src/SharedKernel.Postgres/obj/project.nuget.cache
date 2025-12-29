@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+IkgPRLd95g=",
+  "dgSpecHash": "M5wD4jvwHSQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\HaikAsatryan\\Desktop\\PandaWork\\projects\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\9.0.0\\aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512",
-    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\efcore.bulkextensions.core\\9.0.2\\efcore.bulkextensions.core.9.0.2.nupkg.sha512",
-    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\efcore.bulkextensions.postgresql\\9.0.2\\efcore.bulkextensions.postgresql.9.0.2.nupkg.sha512",
+    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\efcore.bulkextensions.core\\10.0.0-rc.2\\efcore.bulkextensions.core.10.0.0-rc.2.nupkg.sha512",
+    "C:\\Users\\HaikAsatryan\\.nuget\\packages\\efcore.bulkextensions.postgresql\\10.0.0-rc.2\\efcore.bulkextensions.postgresql.10.0.0-rc.2.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\efcore.namingconventions\\10.0.0-rc.2\\efcore.namingconventions.10.0.0-rc.2.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\entityframeworkcore.exceptions.common\\8.1.3\\entityframeworkcore.exceptions.common.8.1.3.nupkg.sha512",
     "C:\\Users\\HaikAsatryan\\.nuget\\packages\\entityframeworkcore.exceptions.postgresql\\8.1.3\\entityframeworkcore.exceptions.postgresql.8.1.3.nupkg.sha512",

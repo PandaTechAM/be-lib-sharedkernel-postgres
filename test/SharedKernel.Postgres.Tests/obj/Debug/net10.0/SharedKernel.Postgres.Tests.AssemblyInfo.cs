@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharedKernel.Postgres.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef5d3f59649b34dab8a113b5ce0880019713ff15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2706706a247a1b3645019f0b7e0b827d3ddd5306")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharedKernel.Postgres.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharedKernel.Postgres.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
