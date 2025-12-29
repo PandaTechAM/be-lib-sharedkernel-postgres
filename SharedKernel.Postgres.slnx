@@ -1,0 +1,16 @@
+<Solution>
+    <Folder Name="/Solution Items/">
+        <File Path=".editorconfig"/>
+        <File Path=".github/workflows/main.yml"/>
+        <File Path=".gitignore"/>
+        <File Path="global.json"/>
+        <File Path="Readme.md"/>
+    </Folder>
+    <Folder Name="/src/">
+        <Project Path="src/SharedKernel.Postgres/SharedKernel.Postgres.csproj"/>
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/SharedKernel.Postgres.Demo/SharedKernel.Postgres.Demo.csproj"/>
+        <Project Path="test/SharedKernel.Postgres.Tests/SharedKernel.Postgres.Tests.csproj"/>
+    </Folder>
+</Solution>

@@ -11,7 +11,7 @@ public static class DbContextExtensions
 
       return modelConfigurationBuilder;
    }
-   
+
    public static ModelBuilder RestrictFkDeleteBehaviorByDefault(this ModelBuilder modelBuilder)
    {
       foreach (var entityType in modelBuilder.Model.GetEntityTypes())
