@@ -1,0 +1,13 @@
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\bin\Debug\net9.0\SharedKernel.Postgres.deps.json
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\bin\Debug\net9.0\SharedKernel.Postgres.dll
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\bin\Debug\net9.0\SharedKernel.Postgres.pdb
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\obj\Debug\net9.0\SharedKernel.Postgres.csproj.AssemblyReference.cache
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\obj\Debug\net9.0\SharedKernel.Postgres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\obj\Debug\net9.0\SharedKernel.Postgres.AssemblyInfoInputs.cache
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\obj\Debug\net9.0\SharedKernel.Postgres.AssemblyInfo.cs
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\obj\Debug\net9.0\SharedKernel.Postgres.csproj.CoreCompileInputs.cache
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\obj\Debug\net9.0\SharedKernel.Postgres.sourcelink.json
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\obj\Debug\net9.0\SharedKernel.Postgres.dll
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\obj\Debug\net9.0\refint\SharedKernel.Postgres.dll
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\obj\Debug\net9.0\SharedKernel.Postgres.pdb
+C:\Users\HaikAsatryan\Desktop\PandaWork\projects\be-lib-sharedkernel-postgres\src\SharedKernel.Postgres\obj\Debug\net9.0\ref\SharedKernel.Postgres.dll

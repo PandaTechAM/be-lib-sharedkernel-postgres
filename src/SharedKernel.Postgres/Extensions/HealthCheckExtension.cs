@@ -5,7 +5,8 @@ namespace SharedKernel.Postgres.Extensions;
 
 public static class HealthCheckExtension
 {
-   public static WebApplicationBuilder AddPostgresHealthCheck(this WebApplicationBuilder builder, string postgresConnectionString)
+   public static WebApplicationBuilder AddPostgresHealthCheck(this WebApplicationBuilder builder,
+      string postgresConnectionString)
    {
       var timeoutSeconds = TimeSpan.FromSeconds(5);
       var dbName = postgresConnectionString.GetDatabaseName();
@@ -22,14 +23,16 @@ public static class HealthCheckExtension
 
       return builder;
    }
-   
+
    private static string? GetDatabaseName(this string postgresConnectionString)
    {
       return postgresConnectionString.Split(';')
-                    .Select(part => part.Split('='))
-                    .Where(keyValue => keyValue.Length == 2 && keyValue[0].Trim().Equals("Database", StringComparison.OrdinalIgnoreCase))
-                    .Select(keyValue => keyValue[1].Trim())
-                    .FirstOrDefault();
+                                     .Select(part => part.Split('='))
+                                     .Where(keyValue => keyValue.Length == 2 && keyValue[0]
+                                        .Trim()
+                                        .Equals("Database", StringComparison.OrdinalIgnoreCase))
+                                     .Select(keyValue => keyValue[1]
+                                        .Trim())
+                                     .FirstOrDefault();
    }
-
 }
