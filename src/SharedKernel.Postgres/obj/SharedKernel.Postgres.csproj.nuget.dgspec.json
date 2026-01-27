@@ -56,11 +56,11 @@
             },
             "EFCore.BulkExtensions.PostgreSql": {
               "target": "Package",
-              "version": "[10.0.0-rc.2, )"
+              "version": "[10.0.0, )"
             },
             "EFCore.NamingConventions": {
               "target": "Package",
-              "version": "[10.0.0-rc.2, )"
+              "version": "[10.0.1, )"
             },
             "EntityFrameworkCore.Exceptions.PostgreSQL": {
               "target": "Package",
@@ -68,33 +68,33 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[10.0.2, )"
             },
             "Pandatech.Analyzers": {
               "target": "Package",
-              "version": "[1.6.0, )"
+              "version": "[2.1.0, )"
             },
             "Pandatech.EFCore.Audit": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.0.1, )"
             },
             "Pandatech.EFCore.AuditBase": {
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[4.0.1, )"
             },
             "Pandatech.EFCore.PostgresExtensions": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.1.0, )"
             },
             "Pandatech.GridifyExtensions": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.0.1, )"
             },
             "SonarAnalyzer.CSharp": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.17.0.131074, )"
+              "version": "[10.18.0.131500, )"
             }
           },
           "imports": [
@@ -113,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

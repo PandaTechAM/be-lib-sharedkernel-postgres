@@ -19,11 +19,11 @@
           }
         }
       },
-      "EFCore.BulkExtensions.Core/10.0.0-rc.2": {
+      "EFCore.BulkExtensions.Core/10.0.0": {
         "type": "package",
         "dependencies": {
           "MedallionTopologicalSort": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.1",
           "NetTopologySuite": "2.6.0"
         },
         "compile": {
@@ -37,10 +37,10 @@
           }
         }
       },
-      "EFCore.BulkExtensions.PostgreSql/10.0.0-rc.2": {
+      "EFCore.BulkExtensions.PostgreSql/10.0.0": {
         "type": "package",
         "dependencies": {
-          "EFCore.BulkExtensions.Core": "10.0.0-rc.2",
+          "EFCore.BulkExtensions.Core": "10.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
         },
         "compile": {
@@ -54,12 +54,12 @@
           }
         }
       },
-      "EFCore.NamingConventions/10.0.0-rc.2": {
+      "EFCore.NamingConventions/10.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "10.0.0-rc.2.25502.107",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.0-rc.2.25502.107",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0-rc.2.25502.107"
+          "Microsoft.EntityFrameworkCore": "[10.0.1, 11.0.0)",
+          "Microsoft.EntityFrameworkCore.Relational": "[10.0.1, 11.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.1"
         },
         "compile": {
           "lib/net10.0/EFCore.NamingConventions.dll": {}
@@ -139,7 +139,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/10.0.1": {
+      "Microsoft.AspNetCore.OpenApi/10.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "2.0.0"
@@ -161,13 +161,13 @@
           "build/Microsoft.AspNetCore.OpenApi.targets": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/10.0.1": {
+      "Microsoft.EntityFrameworkCore/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.1",
-          "Microsoft.EntityFrameworkCore.Analyzers": "10.0.1",
-          "Microsoft.Extensions.Caching.Memory": "10.0.1",
-          "Microsoft.Extensions.Logging": "10.0.1"
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.2",
+          "Microsoft.EntityFrameworkCore.Analyzers": "10.0.2",
+          "Microsoft.Extensions.Caching.Memory": "10.0.2",
+          "Microsoft.Extensions.Logging": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
@@ -183,7 +183,7 @@
           "buildTransitive/net10.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/10.0.1": {
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.2": {
         "type": "package",
         "compile": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -196,16 +196,16 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/10.0.1": {
+      "Microsoft.EntityFrameworkCore.Analyzers/10.0.2": {
         "type": "package"
       },
-      "Microsoft.EntityFrameworkCore.Relational/10.0.1": {
+      "Microsoft.EntityFrameworkCore.Relational/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "10.0.1",
-          "Microsoft.Extensions.Caching.Memory": "10.0.1",
-          "Microsoft.Extensions.Configuration.Abstractions": "10.0.1",
-          "Microsoft.Extensions.Logging": "10.0.1"
+          "Microsoft.EntityFrameworkCore": "10.0.2",
+          "Microsoft.Extensions.Caching.Memory": "10.0.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.2",
+          "Microsoft.Extensions.Logging": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
@@ -218,10 +218,10 @@
           }
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/10.0.1": {
+      "Microsoft.Extensions.Caching.Abstractions/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "10.0.1"
+          "Microsoft.Extensions.Primitives": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Caching.Abstractions.dll": {
@@ -237,14 +237,14 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/10.0.1": {
+      "Microsoft.Extensions.Caching.Memory/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "10.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.1",
-          "Microsoft.Extensions.Options": "10.0.1",
-          "Microsoft.Extensions.Primitives": "10.0.1"
+          "Microsoft.Extensions.Caching.Abstractions": "10.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.2",
+          "Microsoft.Extensions.Options": "10.0.2",
+          "Microsoft.Extensions.Primitives": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Caching.Memory.dll": {
@@ -260,10 +260,10 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/10.0.1": {
+      "Microsoft.Extensions.Configuration.Abstractions/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "10.0.1"
+          "Microsoft.Extensions.Primitives": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
@@ -279,10 +279,10 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/10.0.1": {
+      "Microsoft.Extensions.DependencyInjection/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.1"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll": {
@@ -298,7 +298,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.1": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.2": {
         "type": "package",
         "compile": {
           "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -408,12 +408,12 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Logging/10.0.1": {
+      "Microsoft.Extensions.Logging/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "10.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.1",
-          "Microsoft.Extensions.Options": "10.0.1"
+          "Microsoft.Extensions.DependencyInjection": "10.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.2",
+          "Microsoft.Extensions.Options": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Logging.dll": {
@@ -429,10 +429,10 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/10.0.1": {
+      "Microsoft.Extensions.Logging.Abstractions/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.1"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll": {
@@ -448,11 +448,11 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Options/10.0.1": {
+      "Microsoft.Extensions.Options/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.1",
-          "Microsoft.Extensions.Primitives": "10.0.1"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2",
+          "Microsoft.Extensions.Primitives": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Options.dll": {
@@ -468,7 +468,7 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
-      "Microsoft.Extensions.Primitives/10.0.1": {
+      "Microsoft.Extensions.Primitives/10.0.2": {
         "type": "package",
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Primitives.dll": {
@@ -544,16 +544,16 @@
           }
         }
       },
-      "Pandatech.Analyzers/1.6.0": {
+      "Pandatech.Analyzers/2.1.0": {
         "type": "package"
       },
-      "Pandatech.EFCore.Audit/2.0.0": {
+      "Pandatech.EFCore.Audit/2.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "10.0.1",
-          "Microsoft.EntityFrameworkCore": "10.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.1",
-          "Pandatech.Analyzers": "1.6.0"
+          "Microsoft.AspNetCore.OpenApi": "10.0.2",
+          "Microsoft.EntityFrameworkCore": "10.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.2",
+          "Pandatech.Analyzers": "2.1.0"
         },
         "compile": {
           "lib/net10.0/EFCore.Audit.dll": {}
@@ -562,12 +562,12 @@
           "lib/net10.0/EFCore.Audit.dll": {}
         }
       },
-      "Pandatech.EFCore.AuditBase/4.0.0": {
+      "Pandatech.EFCore.AuditBase/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "10.0.1",
+          "Microsoft.EntityFrameworkCore": "10.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
-          "Pandatech.Analyzers": "1.6.0"
+          "Pandatech.Analyzers": "2.1.0"
         },
         "compile": {
           "lib/net10.0/EFCore.AuditBase.dll": {}
@@ -576,11 +576,11 @@
           "lib/net10.0/EFCore.AuditBase.dll": {}
         }
       },
-      "Pandatech.EFCore.PostgresExtensions/6.0.0": {
+      "Pandatech.EFCore.PostgresExtensions/6.1.0": {
         "type": "package",
         "dependencies": {
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
-          "Pandatech.Analyzers": "1.6.0"
+          "Pandatech.Analyzers": "2.1.0"
         },
         "compile": {
           "lib/net10.0/EFCore.PostgresExtensions.dll": {}
@@ -589,12 +589,12 @@
           "lib/net10.0/EFCore.PostgresExtensions.dll": {}
         }
       },
-      "Pandatech.GridifyExtensions/3.0.0": {
+      "Pandatech.GridifyExtensions/3.0.1": {
         "type": "package",
         "dependencies": {
           "Gridify.EntityFramework": "2.17.2",
-          "Microsoft.AspNetCore.OpenApi": "10.0.1",
-          "Pandatech.Analyzers": "1.6.0"
+          "Microsoft.AspNetCore.OpenApi": "10.0.2",
+          "Pandatech.Analyzers": "2.0.0"
         },
         "compile": {
           "lib/net10.0/GridifyExtensions.dll": {}
@@ -603,7 +603,7 @@
           "lib/net10.0/GridifyExtensions.dll": {}
         }
       },
-      "SonarAnalyzer.CSharp/10.17.0.131074": {
+      "SonarAnalyzer.CSharp/10.18.0.131500": {
         "type": "package"
       }
     }
@@ -626,48 +626,48 @@
         "lib/netstandard2.0/HealthChecks.NpgSql.xml"
       ]
     },
-    "EFCore.BulkExtensions.Core/10.0.0-rc.2": {
-      "sha512": "95F6XU3Zb5hFJcEkYFlK8lFz2hj+1xqOSFTc0wodKmBI9Hif3mE9YWj0BwMqU2cm7o2Xt888lc/QUUKCbmucuA==",
+    "EFCore.BulkExtensions.Core/10.0.0": {
+      "sha512": "nKtjTES+tQdbA9cZDbeV8K/nOc/gZG9UwICPTXsFCGiUlqeuR3yM7URCrnaDgVEFVH/iNC2Nf4j5f68L2gr+0Q==",
       "type": "package",
-      "path": "efcore.bulkextensions.core/10.0.0-rc.2",
+      "path": "efcore.bulkextensions.core/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "EFCoreBulk.png",
         "LICENSE.txt",
         "README.md",
-        "efcore.bulkextensions.core.10.0.0-rc.2.nupkg.sha512",
+        "efcore.bulkextensions.core.10.0.0.nupkg.sha512",
         "efcore.bulkextensions.core.nuspec",
         "lib/net10.0/EFCore.BulkExtensions.Core.dll",
         "lib/net10.0/EFCore.BulkExtensions.Core.pdb",
         "lib/net10.0/EFCore.BulkExtensions.Core.xml"
       ]
     },
-    "EFCore.BulkExtensions.PostgreSql/10.0.0-rc.2": {
-      "sha512": "4ofDACe137ESnQluDqbHBoYCFVfnksSzBeAuLWAa5DwV2+cJWm4W93emIN2db6a4ip6uryoPb4BxJN56T1w5PA==",
+    "EFCore.BulkExtensions.PostgreSql/10.0.0": {
+      "sha512": "QqjE3SDR9U0bFDegc7mBrNjZC3pNwLqnrxE7PuCoOMy7dtBW5Qx1XR3BAebGtb3eHj3kMrdk7WWhdTAYeIR06g==",
       "type": "package",
-      "path": "efcore.bulkextensions.postgresql/10.0.0-rc.2",
+      "path": "efcore.bulkextensions.postgresql/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "EFCoreBulk.png",
         "LICENSE.txt",
         "README.md",
-        "efcore.bulkextensions.postgresql.10.0.0-rc.2.nupkg.sha512",
+        "efcore.bulkextensions.postgresql.10.0.0.nupkg.sha512",
         "efcore.bulkextensions.postgresql.nuspec",
         "lib/net10.0/EFCore.BulkExtensions.PostgreSql.dll",
         "lib/net10.0/EFCore.BulkExtensions.PostgreSql.pdb",
         "lib/net10.0/EFCore.BulkExtensions.PostgreSql.xml"
       ]
     },
-    "EFCore.NamingConventions/10.0.0-rc.2": {
-      "sha512": "aEW98rqqGG4DdLcTlJ2zpi6bmnDcftG4NhhpYtXuXyaM07hlLpf043DRBuEa+aWMcLVoTTOgrtcC7dfI/luvYA==",
+    "EFCore.NamingConventions/10.0.1": {
+      "sha512": "Xs5k8XfNKPkkQSkGmZkmDI1je0prLTdxse+s8PgTFZxyBrlrTLzTBUTVJtQKSsbvu4y+luAv8DdtO5SALJE++A==",
       "type": "package",
-      "path": "efcore.namingconventions/10.0.0-rc.2",
+      "path": "efcore.namingconventions/10.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "efcore.namingconventions.10.0.0-rc.2.nupkg.sha512",
+        "efcore.namingconventions.10.0.1.nupkg.sha512",
         "efcore.namingconventions.nuspec",
         "lib/net10.0/EFCore.NamingConventions.dll"
       ]
@@ -757,10 +757,10 @@
         "medalliontopologicalsort.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.OpenApi/10.0.1": {
-      "sha512": "gMY53EggRIFawhue66GanHcm1Tcd0+QzzMwnMl60LrEoJhGgzA9qAbLx6t/ON3hX4flc2NcEbTK1Z5GCLYHcwA==",
+    "Microsoft.AspNetCore.OpenApi/10.0.2": {
+      "sha512": "YuEjUNpsoZLs0I5ONt013Z+Udsz3f9sPUh1Xm59LN7+/Z8oVG/swCUYLBbANtfreiunWnoT2uk+5kst4s2jr3Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/10.0.1",
+      "path": "microsoft.aspnetcore.openapi/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -771,14 +771,14 @@
         "build/Microsoft.AspNetCore.OpenApi.targets",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/10.0.1": {
-      "sha512": "QsXvZ8G7Dl7x09rlq0b2dye7QqfReMq8yGdl7Mffi3Ip+aTa+JUMixBZ4lhCs9Ygjz2e9tiUACstxI+ADkwaFg==",
+    "Microsoft.EntityFrameworkCore/10.0.2": {
+      "sha512": "d3+XKbLSHPCu3vwpXECoXcFbvGKmAhEeUmc1xy2czmuPnEF7rZN2HP5ZGMwCMbAKk4B01+nS4HixSMo2Vf/Y9g==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/10.0.1",
+      "path": "microsoft.entityframeworkcore/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -787,14 +787,14 @@
         "buildTransitive/net10.0/Microsoft.EntityFrameworkCore.props",
         "lib/net10.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net10.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.10.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.10.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/10.0.1": {
-      "sha512": "sp6Uq8Oc3RVGtmxLS3ZgzVeFHrpLNymsMudoeqRmB9pRTWgvq2S903sF5OnaaZmh4Bz6kpq7FwofE+DOhKJYvg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.2": {
+      "sha512": "BzAwIU5mYeOmnKbEXrkwx7feW2V+zUTrK/kRonSib94tjvc0/iRj2a4N6YGXRhTNjaFP3tvCMIDaX1vIFF6dkg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/10.0.1",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -802,28 +802,28 @@
         "PACKAGE.md",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.10.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.10.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/10.0.1": {
-      "sha512": "Ug2lxkiz1bpnxQF/xdswLl5EBA6sAG2ig5nMjmtpQZO0C88ZnvUkbpH2vQq+8ultIRmvp5Ec2jndLGRMPjW0Ew==",
+    "Microsoft.EntityFrameworkCore.Analyzers/10.0.2": {
+      "sha512": "5C8aKN2HFhXfLhkrVvQ6yH990nw35pS7HNnwdBc628zIREaKJ4/rkdCXzxOdZo/SnCT3Kg7a/CqnhlzuJhlD4Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/10.0.1",
+      "path": "microsoft.entityframeworkcore.analyzers/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "docs/PACKAGE.md",
-        "microsoft.entityframeworkcore.analyzers.10.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.10.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/10.0.1": {
-      "sha512": "8/5kYGwKN6wtc89QqcPTOZDAJSMX8MzKCf5OmYjIfAHWTfsUEpGKYrdtfNk4X36rQ0BiU3n57Y4rbtnerzJN0Q==",
+    "Microsoft.EntityFrameworkCore.Relational/10.0.2": {
+      "sha512": "1fUeyNmqDNfMogJ2ut7OKO57/WGjjkHMYeX51SpA3PwP7ftbx8g/Z3fbErD+1q14DILrqJfsszYsYhGssBRfDg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/10.0.1",
+      "path": "microsoft.entityframeworkcore.relational/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -831,14 +831,14 @@
         "PACKAGE.md",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.10.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.10.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.Extensions.Caching.Abstractions/10.0.1": {
-      "sha512": "Vb1vVAQDxHpXVdL9fpOX2BzeV7bbhzG4pAcIKRauRl0/VfkE8mq0f+fYC+gWICh3dlzTZInJ/cTeBS2MgU/XvQ==",
+    "Microsoft.Extensions.Caching.Abstractions/10.0.2": {
+      "sha512": "WIRPDa/qoKHmJhTAPCO/zLu9kRLQ2Fd6HD5tzgdXJ3xGEVXDHP6FvakKJjynwKrVDld8H4G4tcbW53wuC/wxMQ==",
       "type": "package",
-      "path": "microsoft.extensions.caching.abstractions/10.0.1",
+      "path": "microsoft.extensions.caching.abstractions/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -859,15 +859,15 @@
         "lib/net9.0/Microsoft.Extensions.Caching.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "microsoft.extensions.caching.abstractions.10.0.1.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.10.0.2.nupkg.sha512",
         "microsoft.extensions.caching.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Caching.Memory/10.0.1": {
-      "sha512": "NxqSP0Ky4dZ5ybszdZCqs1X2C70s+dXflqhYBUh/vhcQVTIooNCXIYnLVbafoAFGZMs51d9+rHxveXs0ZC3SQQ==",
+    "Microsoft.Extensions.Caching.Memory/10.0.2": {
+      "sha512": "MkdPYdtsu0Ta4m9Di4XnWVdO9u+wi1LtvisoR1EteIxsXWO/+3iyAPH6RZbw2lBlWZu9lastbl2YsHVIaL9j+g==",
       "type": "package",
-      "path": "microsoft.extensions.caching.memory/10.0.1",
+      "path": "microsoft.extensions.caching.memory/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -888,15 +888,15 @@
         "lib/net9.0/Microsoft.Extensions.Caching.Memory.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.10.0.1.nupkg.sha512",
+        "microsoft.extensions.caching.memory.10.0.2.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/10.0.1": {
-      "sha512": "kPlU11hql+L9RjrN2N9/0GcRcRcZrNFlLLjadasFWeBORT6pL6OE+RYRk90GGCyVGSxTK+e1/f3dsMj5zpFFiQ==",
+    "Microsoft.Extensions.Configuration.Abstractions/10.0.2": {
+      "sha512": "KC5PslaTDnTuTvyke0KYAVBYdZ7IVTsU3JhHe69BpEbHLcj1YThP3bIGtZNOkZfast2AuLnul5lk4rZKxAdUGQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/10.0.1",
+      "path": "microsoft.extensions.configuration.abstractions/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -917,15 +917,15 @@
         "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.10.0.1.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.10.0.2.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/10.0.1": {
-      "sha512": "zerXV0GAR9LCSXoSIApbWn+Dq1/T+6vbXMHGduq1LoVQRHT0BXsGQEau0jeLUBUcsoF/NaUT8ADPu8b+eNcIyg==",
+    "Microsoft.Extensions.DependencyInjection/10.0.2": {
+      "sha512": "J/Zmp6fY93JbaiZ11ckWvcyxMPjD6XVwIHQXBjryTBgn7O6O20HYg9uVLFcZlNfgH78MnreE/7EH+hjfzn7VyA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/10.0.1",
+      "path": "microsoft.extensions.dependencyinjection/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -948,15 +948,15 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.10.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.10.0.2.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.1": {
-      "sha512": "oIy8fQxxbUsSrrOvgBqlVgOeCtDmrcynnTG+FQufcUWBrwyPfwlUkCDB2vaiBeYPyT+20u9/HeuHeBf+H4F/8g==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.2": {
+      "sha512": "zOIurr59+kUf9vNcsUkCvKWZv+fPosUZXURZesYkJCvl0EzTc9F7maAO4Cd2WEV7ZJJ0AZrFQvuH6Npph9wdBw==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.1",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -979,7 +979,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1111,10 +1111,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Logging/10.0.1": {
-      "sha512": "9ItMpMLFZFJFqCuHLLbR3LiA4ahA8dMtYuXpXl2YamSDWZhYS9BruPprkftY0tYi2bQ0slNrixdFm+4kpz1g5w==",
+    "Microsoft.Extensions.Logging/10.0.2": {
+      "sha512": "a0EWuBs6D3d7XMGroDXm+WsAi5CVVfjOJvyxurzWnuhBN9CO+1qHKcrKV1JK7H/T4ZtHIoVCOX/YyWM8K87qtw==",
       "type": "package",
-      "path": "microsoft.extensions.logging/10.0.1",
+      "path": "microsoft.extensions.logging/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1137,15 +1137,15 @@
         "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
         "lib/netstandard2.1/Microsoft.Extensions.Logging.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Logging.xml",
-        "microsoft.extensions.logging.10.0.1.nupkg.sha512",
+        "microsoft.extensions.logging.10.0.2.nupkg.sha512",
         "microsoft.extensions.logging.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/10.0.1": {
-      "sha512": "YkmyiPIWAXVb+lPIrM0LE5bbtLOJkCiRTFiHpkVOvhI7uTvCfoOHLEN0LcsY56GpSD7NqX3gJNpsaDe87/B3zg==",
+    "Microsoft.Extensions.Logging.Abstractions/10.0.2": {
+      "sha512": "RZkez/JjpnO+MZ6efKkSynN6ZztLpw3WbxNzjLCPBd97wWj1S9ZYPWi0nmT4kWBRa6atHsdM1ydGkUr8GudyDQ==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/10.0.1",
+      "path": "microsoft.extensions.logging.abstractions/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1209,15 +1209,15 @@
         "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.10.0.1.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.10.0.2.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Options/10.0.1": {
-      "sha512": "G6VVwywpJI4XIobetGHwg7wDOYC2L2XBYdtskxLaKF/Ynb5QBwLl7Q//wxAR2aVCLkMpoQrjSP9VoORkyddsNQ==",
+    "Microsoft.Extensions.Options/10.0.2": {
+      "sha512": "1De2LJjmxdqopI5AYC5dIhoZQ79AR5ayywxNF1rXrXFtKQfbQOV9+n/IsZBa7qWlr0MqoGpW8+OY2v/57udZOA==",
       "type": "package",
-      "path": "microsoft.extensions.options/10.0.1",
+      "path": "microsoft.extensions.options/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1255,15 +1255,15 @@
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.10.0.1.nupkg.sha512",
+        "microsoft.extensions.options.10.0.2.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Primitives/10.0.1": {
-      "sha512": "DO8XrJkp5x4PddDuc/CH37yDBCs9BYN6ijlKyR3vMb55BP1Vwh90vOX8bNfnKxr5B2qEI3D8bvbY1fFbDveDHQ==",
+    "Microsoft.Extensions.Primitives/10.0.2": {
+      "sha512": "QmSiO+oLBEooGgB3i0GRXyeYRDHjllqt3k365jwfZlYWhvSHA3UL2NEVV5m8aZa041eIlblo6KMI5txvTMpTwA==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/10.0.1",
+      "path": "microsoft.extensions.primitives/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1284,7 +1284,7 @@
         "lib/net9.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.10.0.1.nupkg.sha512",
+        "microsoft.extensions.primitives.10.0.2.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1357,80 +1357,80 @@
         "postgresql.png"
       ]
     },
-    "Pandatech.Analyzers/1.6.0": {
-      "sha512": "cw5VlLGDR5V74jEYGL30D9gFzPfGySA0AebdLu/q2BjHplTQk7WFF4qke1zBr6hNJxdS0nHx/wadFd+sgviCfA==",
+    "Pandatech.Analyzers/2.1.0": {
+      "sha512": "tbIr3sdNDWwJ1hTY69clsm469UfToz94orfOvX3CCnB1kB2B+pTQ70QD7TuhLcdh1VorRL7mIzSy1daMpWF/2Q==",
       "type": "package",
-      "path": "pandatech.analyzers/1.6.0",
+      "path": "pandatech.analyzers/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Readme.md",
         "analyzers/dotnet/cs/Pandatech.Analyzers.dll",
-        "pandatech.analyzers.1.6.0.nupkg.sha512",
+        "pandatech.analyzers.2.1.0.nupkg.sha512",
         "pandatech.analyzers.nuspec",
         "pandatech.png"
       ]
     },
-    "Pandatech.EFCore.Audit/2.0.0": {
-      "sha512": "faI3aslmTN4vEZmQLfRfL0NHZaJ/+rvQv6IguVOFel6Zo+wwmwl5PvSReVHNSWoM/diuWmD2AYqY13N16wGSAw==",
+    "Pandatech.EFCore.Audit/2.0.1": {
+      "sha512": "4BUbFYUoJyz+j0WetDyGN6gDZhI5uXH7w+08C1pxh/YldX7MQM7pLNXqMNMlDNL4ZMbOqIGshrNSvwZIIUb10Q==",
       "type": "package",
-      "path": "pandatech.efcore.audit/2.0.0",
+      "path": "pandatech.efcore.audit/2.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Readme.md",
         "lib/net10.0/EFCore.Audit.dll",
-        "pandatech.efcore.audit.2.0.0.nupkg.sha512",
+        "pandatech.efcore.audit.2.0.1.nupkg.sha512",
         "pandatech.efcore.audit.nuspec",
         "pandatech.png"
       ]
     },
-    "Pandatech.EFCore.AuditBase/4.0.0": {
-      "sha512": "9UOH6mh5Bo3Ubu4vdw9eMsePPKnOhapfNUTTbG3JfVI6j1qfrH5Noxq7Jz+msMqLHlf7B+i3fjVx58K+eAUchA==",
+    "Pandatech.EFCore.AuditBase/4.0.1": {
+      "sha512": "+g0aqdXxSojVHmeNwv7rbEejnuMceWqhWemslzZ9WuVceozW4FeMWMUc4wty1TmE5s4i/DV00/usf+dyfOusNA==",
       "type": "package",
-      "path": "pandatech.efcore.auditbase/4.0.0",
+      "path": "pandatech.efcore.auditbase/4.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Readme.md",
         "lib/net10.0/EFCore.AuditBase.dll",
-        "pandatech.efcore.auditbase.4.0.0.nupkg.sha512",
+        "pandatech.efcore.auditbase.4.0.1.nupkg.sha512",
         "pandatech.efcore.auditbase.nuspec",
         "pandatech.png"
       ]
     },
-    "Pandatech.EFCore.PostgresExtensions/6.0.0": {
-      "sha512": "3xD8ODXnG77cOJBg2xEgNq3YHqXNxkiE17870PAJaJluV3HLSJX9zrxNVItbCLazybLIVLKJVRwiewQhIUHJlw==",
+    "Pandatech.EFCore.PostgresExtensions/6.1.0": {
+      "sha512": "h6bGn8RA01aVgtl1rGoeGMXZv1W6zjChE2O1ubR/Z7zm4izQ40iPwZABoODJKKD62ta58rcpL/IYyRThuGZThQ==",
       "type": "package",
-      "path": "pandatech.efcore.postgresextensions/6.0.0",
+      "path": "pandatech.efcore.postgresextensions/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Readme.md",
         "lib/net10.0/EFCore.PostgresExtensions.dll",
-        "pandatech.efcore.postgresextensions.6.0.0.nupkg.sha512",
+        "pandatech.efcore.postgresextensions.6.1.0.nupkg.sha512",
         "pandatech.efcore.postgresextensions.nuspec",
         "pandatech.png"
       ]
     },
-    "Pandatech.GridifyExtensions/3.0.0": {
-      "sha512": "63Q35ex4JJ9UWM9xIt7QOC8QzS6JMVTeXPs3BfclqvOtrAoCpc1hqehBfi949eeqYVf5e2h84PpcoP9X0awMrQ==",
+    "Pandatech.GridifyExtensions/3.0.1": {
+      "sha512": "vOBkMKMH0PcKWtLH835VLQn+kR9wvbBS8aj2WX22MXMrwyAWxVxbRAQAWmpqjVIKFa79a2igh4SK3poFxNQD0g==",
       "type": "package",
-      "path": "pandatech.gridifyextensions/3.0.0",
+      "path": "pandatech.gridifyextensions/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Readme.md",
         "lib/net10.0/GridifyExtensions.dll",
-        "pandatech.gridifyextensions.3.0.0.nupkg.sha512",
+        "pandatech.gridifyextensions.3.0.1.nupkg.sha512",
         "pandatech.gridifyextensions.nuspec",
         "pandatech.png"
       ]
     },
-    "SonarAnalyzer.CSharp/10.17.0.131074": {
-      "sha512": "N8agHzX1pK3Xv/fqMig/mHspPAmh/aKkGg7lUC1xfezAhFtPTuRqBjuyas622Tvy5jnsN5zCXJVclvNkfJJ4rQ==",
+    "SonarAnalyzer.CSharp/10.18.0.131500": {
+      "sha512": "Rbad71/k5e8MfG81i03Yh2YQQgovIdmyhWcLRevrcW4h9i1DUB3kKX9O1QiOGXcULLjkTdRAXdR8A8XtinL3Pg==",
       "type": "package",
-      "path": "sonaranalyzer.csharp/10.17.0.131074",
+      "path": "sonaranalyzer.csharp/10.18.0.131500",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1440,7 +1440,7 @@
         "licenses/LICENSE.txt",
         "licenses/THIRD_PARTY_LICENSES/Google.Protobuf-LICENSE.txt",
         "licenses/THIRD_PARTY_LICENSES/StyleCop.Analyzers-LICENSE.txt",
-        "sonaranalyzer.csharp.10.17.0.131074.nupkg.sha512",
+        "sonaranalyzer.csharp.10.18.0.131500.nupkg.sha512",
         "sonaranalyzer.csharp.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
@@ -1450,16 +1450,16 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "AspNetCore.HealthChecks.NpgSql >= 9.0.0",
-      "EFCore.BulkExtensions.PostgreSql >= 10.0.0-rc.2",
-      "EFCore.NamingConventions >= 10.0.0-rc.2",
+      "EFCore.BulkExtensions.PostgreSql >= 10.0.0",
+      "EFCore.NamingConventions >= 10.0.1",
       "EntityFrameworkCore.Exceptions.PostgreSQL >= 8.1.3",
-      "Microsoft.AspNetCore.OpenApi >= 10.0.1",
-      "Pandatech.Analyzers >= 1.6.0",
-      "Pandatech.EFCore.Audit >= 2.0.0",
-      "Pandatech.EFCore.AuditBase >= 4.0.0",
-      "Pandatech.EFCore.PostgresExtensions >= 6.0.0",
-      "Pandatech.GridifyExtensions >= 3.0.0",
-      "SonarAnalyzer.CSharp >= 10.17.0.131074"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.2",
+      "Pandatech.Analyzers >= 2.1.0",
+      "Pandatech.EFCore.Audit >= 2.0.1",
+      "Pandatech.EFCore.AuditBase >= 4.0.1",
+      "Pandatech.EFCore.PostgresExtensions >= 6.1.0",
+      "Pandatech.GridifyExtensions >= 3.0.1",
+      "SonarAnalyzer.CSharp >= 10.18.0.131500"
     ]
   },
   "packageFolders": {
@@ -1518,11 +1518,11 @@
           },
           "EFCore.BulkExtensions.PostgreSql": {
             "target": "Package",
-            "version": "[10.0.0-rc.2, )"
+            "version": "[10.0.0, )"
           },
           "EFCore.NamingConventions": {
             "target": "Package",
-            "version": "[10.0.0-rc.2, )"
+            "version": "[10.0.1, )"
           },
           "EntityFrameworkCore.Exceptions.PostgreSQL": {
             "target": "Package",
@@ -1530,33 +1530,33 @@
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[10.0.1, )"
+            "version": "[10.0.2, )"
           },
           "Pandatech.Analyzers": {
             "target": "Package",
-            "version": "[1.6.0, )"
+            "version": "[2.1.0, )"
           },
           "Pandatech.EFCore.Audit": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "[2.0.1, )"
           },
           "Pandatech.EFCore.AuditBase": {
             "target": "Package",
-            "version": "[4.0.0, )"
+            "version": "[4.0.1, )"
           },
           "Pandatech.EFCore.PostgresExtensions": {
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.1.0, )"
           },
           "Pandatech.GridifyExtensions": {
             "target": "Package",
-            "version": "[3.0.0, )"
+            "version": "[3.0.1, )"
           },
           "SonarAnalyzer.CSharp": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.17.0.131074, )"
+            "version": "[10.18.0.131500, )"
           }
         },
         "imports": [
@@ -1575,7 +1575,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

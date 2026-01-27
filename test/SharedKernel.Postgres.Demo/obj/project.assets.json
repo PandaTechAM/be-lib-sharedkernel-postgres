@@ -18,11 +18,11 @@
           }
         }
       },
-      "EFCore.BulkExtensions.Core/10.0.0-rc.2": {
+      "EFCore.BulkExtensions.Core/10.0.0": {
         "type": "package",
         "dependencies": {
           "MedallionTopologicalSort": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.1",
           "NetTopologySuite": "2.6.0"
         },
         "compile": {
@@ -36,10 +36,10 @@
           }
         }
       },
-      "EFCore.BulkExtensions.PostgreSql/10.0.0-rc.2": {
+      "EFCore.BulkExtensions.PostgreSql/10.0.0": {
         "type": "package",
         "dependencies": {
-          "EFCore.BulkExtensions.Core": "10.0.0-rc.2",
+          "EFCore.BulkExtensions.Core": "10.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
         },
         "compile": {
@@ -53,11 +53,11 @@
           }
         }
       },
-      "EFCore.NamingConventions/10.0.0-rc.2": {
+      "EFCore.NamingConventions/10.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "10.0.0-rc.2.25502.107",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.0-rc.2.25502.107"
+          "Microsoft.EntityFrameworkCore": "[10.0.1, 11.0.0)",
+          "Microsoft.EntityFrameworkCore.Relational": "[10.0.1, 11.0.0)"
         },
         "compile": {
           "lib/net10.0/EFCore.NamingConventions.dll": {}
@@ -134,7 +134,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/10.0.1": {
+      "Microsoft.AspNetCore.OpenApi/10.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "2.0.0"
@@ -156,11 +156,11 @@
           "build/Microsoft.AspNetCore.OpenApi.targets": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/10.0.1": {
+      "Microsoft.EntityFrameworkCore/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.1",
-          "Microsoft.EntityFrameworkCore.Analyzers": "10.0.1"
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.2",
+          "Microsoft.EntityFrameworkCore.Analyzers": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
@@ -176,7 +176,7 @@
           "buildTransitive/net10.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/10.0.1": {
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.2": {
         "type": "package",
         "compile": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -189,13 +189,13 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/10.0.1": {
+      "Microsoft.EntityFrameworkCore.Analyzers/10.0.2": {
         "type": "package"
       },
-      "Microsoft.EntityFrameworkCore.Relational/10.0.1": {
+      "Microsoft.EntityFrameworkCore.Relational/10.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "10.0.1"
+          "Microsoft.EntityFrameworkCore": "10.0.2"
         },
         "compile": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
@@ -265,16 +265,16 @@
           }
         }
       },
-      "Pandatech.Analyzers/1.6.0": {
+      "Pandatech.Analyzers/2.1.0": {
         "type": "package"
       },
-      "Pandatech.EFCore.Audit/2.0.0": {
+      "Pandatech.EFCore.Audit/2.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "10.0.1",
-          "Microsoft.EntityFrameworkCore": "10.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.1",
-          "Pandatech.Analyzers": "1.6.0"
+          "Microsoft.AspNetCore.OpenApi": "10.0.2",
+          "Microsoft.EntityFrameworkCore": "10.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.2",
+          "Pandatech.Analyzers": "2.1.0"
         },
         "compile": {
           "lib/net10.0/EFCore.Audit.dll": {}
@@ -283,12 +283,12 @@
           "lib/net10.0/EFCore.Audit.dll": {}
         }
       },
-      "Pandatech.EFCore.AuditBase/4.0.0": {
+      "Pandatech.EFCore.AuditBase/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "10.0.1",
+          "Microsoft.EntityFrameworkCore": "10.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
-          "Pandatech.Analyzers": "1.6.0"
+          "Pandatech.Analyzers": "2.1.0"
         },
         "compile": {
           "lib/net10.0/EFCore.AuditBase.dll": {}
@@ -297,11 +297,11 @@
           "lib/net10.0/EFCore.AuditBase.dll": {}
         }
       },
-      "Pandatech.EFCore.PostgresExtensions/6.0.0": {
+      "Pandatech.EFCore.PostgresExtensions/6.1.0": {
         "type": "package",
         "dependencies": {
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
-          "Pandatech.Analyzers": "1.6.0"
+          "Pandatech.Analyzers": "2.1.0"
         },
         "compile": {
           "lib/net10.0/EFCore.PostgresExtensions.dll": {}
@@ -310,12 +310,12 @@
           "lib/net10.0/EFCore.PostgresExtensions.dll": {}
         }
       },
-      "Pandatech.GridifyExtensions/3.0.0": {
+      "Pandatech.GridifyExtensions/3.0.1": {
         "type": "package",
         "dependencies": {
           "Gridify.EntityFramework": "2.17.2",
-          "Microsoft.AspNetCore.OpenApi": "10.0.1",
-          "Pandatech.Analyzers": "1.6.0"
+          "Microsoft.AspNetCore.OpenApi": "10.0.2",
+          "Pandatech.Analyzers": "2.0.0"
         },
         "compile": {
           "lib/net10.0/GridifyExtensions.dll": {}
@@ -329,15 +329,15 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "AspNetCore.HealthChecks.NpgSql": "9.0.0",
-          "EFCore.BulkExtensions.PostgreSql": "10.0.0-rc.2",
-          "EFCore.NamingConventions": "10.0.0-rc.2",
+          "EFCore.BulkExtensions.PostgreSql": "10.0.0",
+          "EFCore.NamingConventions": "10.0.1",
           "EntityFrameworkCore.Exceptions.PostgreSQL": "8.1.3",
-          "Microsoft.AspNetCore.OpenApi": "10.0.1",
-          "Pandatech.Analyzers": "1.6.0",
-          "Pandatech.EFCore.Audit": "2.0.0",
-          "Pandatech.EFCore.AuditBase": "4.0.0",
-          "Pandatech.EFCore.PostgresExtensions": "6.0.0",
-          "Pandatech.GridifyExtensions": "3.0.0"
+          "Microsoft.AspNetCore.OpenApi": "10.0.2",
+          "Pandatech.Analyzers": "2.1.0",
+          "Pandatech.EFCore.Audit": "2.0.1",
+          "Pandatech.EFCore.AuditBase": "4.0.1",
+          "Pandatech.EFCore.PostgresExtensions": "6.1.0",
+          "Pandatech.GridifyExtensions": "3.0.1"
         },
         "compile": {
           "bin/placeholder/Pandatech.SharedKernel.Postgres.dll": {}
@@ -366,48 +366,48 @@
         "lib/netstandard2.0/HealthChecks.NpgSql.xml"
       ]
     },
-    "EFCore.BulkExtensions.Core/10.0.0-rc.2": {
-      "sha512": "95F6XU3Zb5hFJcEkYFlK8lFz2hj+1xqOSFTc0wodKmBI9Hif3mE9YWj0BwMqU2cm7o2Xt888lc/QUUKCbmucuA==",
+    "EFCore.BulkExtensions.Core/10.0.0": {
+      "sha512": "nKtjTES+tQdbA9cZDbeV8K/nOc/gZG9UwICPTXsFCGiUlqeuR3yM7URCrnaDgVEFVH/iNC2Nf4j5f68L2gr+0Q==",
       "type": "package",
-      "path": "efcore.bulkextensions.core/10.0.0-rc.2",
+      "path": "efcore.bulkextensions.core/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "EFCoreBulk.png",
         "LICENSE.txt",
         "README.md",
-        "efcore.bulkextensions.core.10.0.0-rc.2.nupkg.sha512",
+        "efcore.bulkextensions.core.10.0.0.nupkg.sha512",
         "efcore.bulkextensions.core.nuspec",
         "lib/net10.0/EFCore.BulkExtensions.Core.dll",
         "lib/net10.0/EFCore.BulkExtensions.Core.pdb",
         "lib/net10.0/EFCore.BulkExtensions.Core.xml"
       ]
     },
-    "EFCore.BulkExtensions.PostgreSql/10.0.0-rc.2": {
-      "sha512": "4ofDACe137ESnQluDqbHBoYCFVfnksSzBeAuLWAa5DwV2+cJWm4W93emIN2db6a4ip6uryoPb4BxJN56T1w5PA==",
+    "EFCore.BulkExtensions.PostgreSql/10.0.0": {
+      "sha512": "QqjE3SDR9U0bFDegc7mBrNjZC3pNwLqnrxE7PuCoOMy7dtBW5Qx1XR3BAebGtb3eHj3kMrdk7WWhdTAYeIR06g==",
       "type": "package",
-      "path": "efcore.bulkextensions.postgresql/10.0.0-rc.2",
+      "path": "efcore.bulkextensions.postgresql/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "EFCoreBulk.png",
         "LICENSE.txt",
         "README.md",
-        "efcore.bulkextensions.postgresql.10.0.0-rc.2.nupkg.sha512",
+        "efcore.bulkextensions.postgresql.10.0.0.nupkg.sha512",
         "efcore.bulkextensions.postgresql.nuspec",
         "lib/net10.0/EFCore.BulkExtensions.PostgreSql.dll",
         "lib/net10.0/EFCore.BulkExtensions.PostgreSql.pdb",
         "lib/net10.0/EFCore.BulkExtensions.PostgreSql.xml"
       ]
     },
-    "EFCore.NamingConventions/10.0.0-rc.2": {
-      "sha512": "aEW98rqqGG4DdLcTlJ2zpi6bmnDcftG4NhhpYtXuXyaM07hlLpf043DRBuEa+aWMcLVoTTOgrtcC7dfI/luvYA==",
+    "EFCore.NamingConventions/10.0.1": {
+      "sha512": "Xs5k8XfNKPkkQSkGmZkmDI1je0prLTdxse+s8PgTFZxyBrlrTLzTBUTVJtQKSsbvu4y+luAv8DdtO5SALJE++A==",
       "type": "package",
-      "path": "efcore.namingconventions/10.0.0-rc.2",
+      "path": "efcore.namingconventions/10.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "efcore.namingconventions.10.0.0-rc.2.nupkg.sha512",
+        "efcore.namingconventions.10.0.1.nupkg.sha512",
         "efcore.namingconventions.nuspec",
         "lib/net10.0/EFCore.NamingConventions.dll"
       ]
@@ -497,10 +497,10 @@
         "medalliontopologicalsort.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.OpenApi/10.0.1": {
-      "sha512": "gMY53EggRIFawhue66GanHcm1Tcd0+QzzMwnMl60LrEoJhGgzA9qAbLx6t/ON3hX4flc2NcEbTK1Z5GCLYHcwA==",
+    "Microsoft.AspNetCore.OpenApi/10.0.2": {
+      "sha512": "YuEjUNpsoZLs0I5ONt013Z+Udsz3f9sPUh1Xm59LN7+/Z8oVG/swCUYLBbANtfreiunWnoT2uk+5kst4s2jr3Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/10.0.1",
+      "path": "microsoft.aspnetcore.openapi/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -511,14 +511,14 @@
         "build/Microsoft.AspNetCore.OpenApi.targets",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/10.0.1": {
-      "sha512": "QsXvZ8G7Dl7x09rlq0b2dye7QqfReMq8yGdl7Mffi3Ip+aTa+JUMixBZ4lhCs9Ygjz2e9tiUACstxI+ADkwaFg==",
+    "Microsoft.EntityFrameworkCore/10.0.2": {
+      "sha512": "d3+XKbLSHPCu3vwpXECoXcFbvGKmAhEeUmc1xy2czmuPnEF7rZN2HP5ZGMwCMbAKk4B01+nS4HixSMo2Vf/Y9g==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/10.0.1",
+      "path": "microsoft.entityframeworkcore/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -527,14 +527,14 @@
         "buildTransitive/net10.0/Microsoft.EntityFrameworkCore.props",
         "lib/net10.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net10.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.10.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.10.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/10.0.1": {
-      "sha512": "sp6Uq8Oc3RVGtmxLS3ZgzVeFHrpLNymsMudoeqRmB9pRTWgvq2S903sF5OnaaZmh4Bz6kpq7FwofE+DOhKJYvg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.2": {
+      "sha512": "BzAwIU5mYeOmnKbEXrkwx7feW2V+zUTrK/kRonSib94tjvc0/iRj2a4N6YGXRhTNjaFP3tvCMIDaX1vIFF6dkg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/10.0.1",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -542,28 +542,28 @@
         "PACKAGE.md",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.10.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.10.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/10.0.1": {
-      "sha512": "Ug2lxkiz1bpnxQF/xdswLl5EBA6sAG2ig5nMjmtpQZO0C88ZnvUkbpH2vQq+8ultIRmvp5Ec2jndLGRMPjW0Ew==",
+    "Microsoft.EntityFrameworkCore.Analyzers/10.0.2": {
+      "sha512": "5C8aKN2HFhXfLhkrVvQ6yH990nw35pS7HNnwdBc628zIREaKJ4/rkdCXzxOdZo/SnCT3Kg7a/CqnhlzuJhlD4Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/10.0.1",
+      "path": "microsoft.entityframeworkcore.analyzers/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "docs/PACKAGE.md",
-        "microsoft.entityframeworkcore.analyzers.10.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.10.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/10.0.1": {
-      "sha512": "8/5kYGwKN6wtc89QqcPTOZDAJSMX8MzKCf5OmYjIfAHWTfsUEpGKYrdtfNk4X36rQ0BiU3n57Y4rbtnerzJN0Q==",
+    "Microsoft.EntityFrameworkCore.Relational/10.0.2": {
+      "sha512": "1fUeyNmqDNfMogJ2ut7OKO57/WGjjkHMYeX51SpA3PwP7ftbx8g/Z3fbErD+1q14DILrqJfsszYsYhGssBRfDg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/10.0.1",
+      "path": "microsoft.entityframeworkcore.relational/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -571,7 +571,7 @@
         "PACKAGE.md",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.10.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.10.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -643,72 +643,72 @@
         "postgresql.png"
       ]
     },
-    "Pandatech.Analyzers/1.6.0": {
-      "sha512": "cw5VlLGDR5V74jEYGL30D9gFzPfGySA0AebdLu/q2BjHplTQk7WFF4qke1zBr6hNJxdS0nHx/wadFd+sgviCfA==",
+    "Pandatech.Analyzers/2.1.0": {
+      "sha512": "tbIr3sdNDWwJ1hTY69clsm469UfToz94orfOvX3CCnB1kB2B+pTQ70QD7TuhLcdh1VorRL7mIzSy1daMpWF/2Q==",
       "type": "package",
-      "path": "pandatech.analyzers/1.6.0",
+      "path": "pandatech.analyzers/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Readme.md",
         "analyzers/dotnet/cs/Pandatech.Analyzers.dll",
-        "pandatech.analyzers.1.6.0.nupkg.sha512",
+        "pandatech.analyzers.2.1.0.nupkg.sha512",
         "pandatech.analyzers.nuspec",
         "pandatech.png"
       ]
     },
-    "Pandatech.EFCore.Audit/2.0.0": {
-      "sha512": "faI3aslmTN4vEZmQLfRfL0NHZaJ/+rvQv6IguVOFel6Zo+wwmwl5PvSReVHNSWoM/diuWmD2AYqY13N16wGSAw==",
+    "Pandatech.EFCore.Audit/2.0.1": {
+      "sha512": "4BUbFYUoJyz+j0WetDyGN6gDZhI5uXH7w+08C1pxh/YldX7MQM7pLNXqMNMlDNL4ZMbOqIGshrNSvwZIIUb10Q==",
       "type": "package",
-      "path": "pandatech.efcore.audit/2.0.0",
+      "path": "pandatech.efcore.audit/2.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Readme.md",
         "lib/net10.0/EFCore.Audit.dll",
-        "pandatech.efcore.audit.2.0.0.nupkg.sha512",
+        "pandatech.efcore.audit.2.0.1.nupkg.sha512",
         "pandatech.efcore.audit.nuspec",
         "pandatech.png"
       ]
     },
-    "Pandatech.EFCore.AuditBase/4.0.0": {
-      "sha512": "9UOH6mh5Bo3Ubu4vdw9eMsePPKnOhapfNUTTbG3JfVI6j1qfrH5Noxq7Jz+msMqLHlf7B+i3fjVx58K+eAUchA==",
+    "Pandatech.EFCore.AuditBase/4.0.1": {
+      "sha512": "+g0aqdXxSojVHmeNwv7rbEejnuMceWqhWemslzZ9WuVceozW4FeMWMUc4wty1TmE5s4i/DV00/usf+dyfOusNA==",
       "type": "package",
-      "path": "pandatech.efcore.auditbase/4.0.0",
+      "path": "pandatech.efcore.auditbase/4.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Readme.md",
         "lib/net10.0/EFCore.AuditBase.dll",
-        "pandatech.efcore.auditbase.4.0.0.nupkg.sha512",
+        "pandatech.efcore.auditbase.4.0.1.nupkg.sha512",
         "pandatech.efcore.auditbase.nuspec",
         "pandatech.png"
       ]
     },
-    "Pandatech.EFCore.PostgresExtensions/6.0.0": {
-      "sha512": "3xD8ODXnG77cOJBg2xEgNq3YHqXNxkiE17870PAJaJluV3HLSJX9zrxNVItbCLazybLIVLKJVRwiewQhIUHJlw==",
+    "Pandatech.EFCore.PostgresExtensions/6.1.0": {
+      "sha512": "h6bGn8RA01aVgtl1rGoeGMXZv1W6zjChE2O1ubR/Z7zm4izQ40iPwZABoODJKKD62ta58rcpL/IYyRThuGZThQ==",
       "type": "package",
-      "path": "pandatech.efcore.postgresextensions/6.0.0",
+      "path": "pandatech.efcore.postgresextensions/6.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Readme.md",
         "lib/net10.0/EFCore.PostgresExtensions.dll",
-        "pandatech.efcore.postgresextensions.6.0.0.nupkg.sha512",
+        "pandatech.efcore.postgresextensions.6.1.0.nupkg.sha512",
         "pandatech.efcore.postgresextensions.nuspec",
         "pandatech.png"
       ]
     },
-    "Pandatech.GridifyExtensions/3.0.0": {
-      "sha512": "63Q35ex4JJ9UWM9xIt7QOC8QzS6JMVTeXPs3BfclqvOtrAoCpc1hqehBfi949eeqYVf5e2h84PpcoP9X0awMrQ==",
+    "Pandatech.GridifyExtensions/3.0.1": {
+      "sha512": "vOBkMKMH0PcKWtLH835VLQn+kR9wvbBS8aj2WX22MXMrwyAWxVxbRAQAWmpqjVIKFa79a2igh4SK3poFxNQD0g==",
       "type": "package",
-      "path": "pandatech.gridifyextensions/3.0.0",
+      "path": "pandatech.gridifyextensions/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Readme.md",
         "lib/net10.0/GridifyExtensions.dll",
-        "pandatech.gridifyextensions.3.0.0.nupkg.sha512",
+        "pandatech.gridifyextensions.3.0.1.nupkg.sha512",
         "pandatech.gridifyextensions.nuspec",
         "pandatech.png"
       ]
@@ -721,7 +721,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.1",
+      "Microsoft.AspNetCore.OpenApi >= 10.0.2",
       "Pandatech.SharedKernel.Postgres >= 2.0.1"
     ]
   },
@@ -781,7 +781,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[10.0.1, )"
+            "version": "[10.0.2, )"
           }
         },
         "imports": [
@@ -803,7 +803,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
