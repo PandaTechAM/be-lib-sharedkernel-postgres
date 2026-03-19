@@ -285,7 +285,7 @@
           }
         }
       },
-      "Pandatech.GridifyExtensions/4.0.0": {
+      "Pandatech.GridifyExtensions/4.0.1": {
         "type": "package",
         "dependencies": {
           "Gridify.EntityFramework": "2.17.2"
@@ -639,10 +639,10 @@
         "pandatech.png"
       ]
     },
-    "Pandatech.GridifyExtensions/4.0.0": {
-      "sha512": "qQovPfr4g+H1ShrVX/tSB6VkWzoTDQMsVfimCLaDIqKtlDdC/NL+r6/PwWVHSO4hZRUFwpp38x2FODXXDCGUSg==",
+    "Pandatech.GridifyExtensions/4.0.1": {
+      "sha512": "Lp1TZ9ILPl5PQhHBBlj/tk8s0gJ9nlRJrGQae8+YmLafUfJdOAsF5wHgbrNz8xkUhDfy6bzV/wjX1x821wKKHg==",
       "type": "package",
-      "path": "pandatech.gridifyextensions/4.0.0",
+      "path": "pandatech.gridifyextensions/4.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -653,7 +653,7 @@
         "lib/net8.0/GridifyExtensions.xml",
         "lib/net9.0/GridifyExtensions.dll",
         "lib/net9.0/GridifyExtensions.xml",
-        "pandatech.gridifyextensions.4.0.0.nupkg.sha512",
+        "pandatech.gridifyextensions.4.0.1.nupkg.sha512",
         "pandatech.gridifyextensions.nuspec",
         "pandatech.png"
       ]
@@ -688,30 +688,36 @@
       "Pandatech.EFCore.Audit >= 3.0.0",
       "Pandatech.EFCore.AuditBase >= 5.0.0",
       "Pandatech.EFCore.PostgresExtensions >= 7.0.0",
-      "Pandatech.GridifyExtensions >= 4.0.0",
+      "Pandatech.GridifyExtensions >= 4.0.1",
       "SonarAnalyzer.CSharp >= 10.20.0.135146 <= 10.20.0.135146"
     ]
   },
   "packageFolders": {
-    "/home/haik/.nuget/packages/": {}
+    "C:\\Users\\AramSargsyan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "restore": {
-      "projectUniqueName": "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/SharedKernel.Postgres.csproj",
+      "projectUniqueName": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj",
       "projectName": "Pandatech.SharedKernel.Postgres",
-      "projectPath": "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/SharedKernel.Postgres.csproj",
-      "packagesPath": "/home/haik/.nuget/packages/",
-      "outputPath": "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/obj/",
+      "projectPath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj",
+      "packagesPath": "C:\\Users\\AramSargsyan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/haik/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\AramSargsyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "/usr/lib64/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -771,7 +777,7 @@
           },
           "Pandatech.GridifyExtensions": {
             "target": "Package",
-            "version": "[4.0.0, )"
+            "version": "[4.0.1, )"
           },
           "SonarAnalyzer.CSharp": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -799,7 +805,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

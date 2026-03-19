@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/haik/code/be-lib-sharedkernel-postgres/test/SharedKernel.Postgres.Tests/SharedKernel.Postgres.Tests.csproj": {}
+    "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Tests\\SharedKernel.Postgres.Tests.csproj": {}
   },
   "projects": {
-    "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/SharedKernel.Postgres.csproj": {
-      "version": "2.1.0",
+    "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj": {
+      "version": "2.1.1",
       "restore": {
-        "projectUniqueName": "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/SharedKernel.Postgres.csproj",
+        "projectUniqueName": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj",
         "projectName": "Pandatech.SharedKernel.Postgres",
-        "projectPath": "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/SharedKernel.Postgres.csproj",
-        "packagesPath": "/home/haik/.nuget/packages/",
-        "outputPath": "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/obj/",
+        "projectPath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj",
+        "packagesPath": "C:\\Users\\AramSargsyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/haik/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\AramSargsyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,7 +85,7 @@
             },
             "Pandatech.GridifyExtensions": {
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[4.0.1, )"
             },
             "SonarAnalyzer.CSharp": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -108,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -526,31 +531,36 @@
         }
       }
     },
-    "/home/haik/code/be-lib-sharedkernel-postgres/test/SharedKernel.Postgres.Tests/SharedKernel.Postgres.Tests.csproj": {
+    "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Tests\\SharedKernel.Postgres.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/haik/code/be-lib-sharedkernel-postgres/test/SharedKernel.Postgres.Tests/SharedKernel.Postgres.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Tests\\SharedKernel.Postgres.Tests.csproj",
         "projectName": "SharedKernel.Postgres.Tests",
-        "projectPath": "/home/haik/code/be-lib-sharedkernel-postgres/test/SharedKernel.Postgres.Tests/SharedKernel.Postgres.Tests.csproj",
-        "packagesPath": "/home/haik/.nuget/packages/",
-        "outputPath": "/home/haik/code/be-lib-sharedkernel-postgres/test/SharedKernel.Postgres.Tests/obj/",
+        "projectPath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Tests\\SharedKernel.Postgres.Tests.csproj",
+        "packagesPath": "C:\\Users\\AramSargsyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/haik/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\AramSargsyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/SharedKernel.Postgres.csproj": {
-                "projectPath": "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/SharedKernel.Postgres.csproj"
+              "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj": {
+                "projectPath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj"
               }
             }
           }
@@ -608,7 +618,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
