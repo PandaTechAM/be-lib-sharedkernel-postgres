@@ -285,7 +285,7 @@
           }
         }
       },
-      "Pandatech.GridifyExtensions/4.0.1": {
+      "Pandatech.GridifyExtensions/4.0.2": {
         "type": "package",
         "dependencies": {
           "Gridify.EntityFramework": "2.17.2"
@@ -639,10 +639,10 @@
         "pandatech.png"
       ]
     },
-    "Pandatech.GridifyExtensions/4.0.1": {
-      "sha512": "Lp1TZ9ILPl5PQhHBBlj/tk8s0gJ9nlRJrGQae8+YmLafUfJdOAsF5wHgbrNz8xkUhDfy6bzV/wjX1x821wKKHg==",
+    "Pandatech.GridifyExtensions/4.0.2": {
+      "sha512": "ivxLt/pOEnb12Pjm9qsw80nzsKlNlB1NkaSI9fKDWsvrjp1G64xm1/7by0Q9C7DqCFU3I/iyCcsyQo4CeBYirg==",
       "type": "package",
-      "path": "pandatech.gridifyextensions/4.0.1",
+      "path": "pandatech.gridifyextensions/4.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -653,7 +653,7 @@
         "lib/net8.0/GridifyExtensions.xml",
         "lib/net9.0/GridifyExtensions.dll",
         "lib/net9.0/GridifyExtensions.xml",
-        "pandatech.gridifyextensions.4.0.1.nupkg.sha512",
+        "pandatech.gridifyextensions.4.0.2.nupkg.sha512",
         "pandatech.gridifyextensions.nuspec",
         "pandatech.png"
       ]
@@ -688,7 +688,7 @@
       "Pandatech.EFCore.Audit >= 3.0.0",
       "Pandatech.EFCore.AuditBase >= 5.0.0",
       "Pandatech.EFCore.PostgresExtensions >= 7.0.0",
-      "Pandatech.GridifyExtensions >= 4.0.1",
+      "Pandatech.GridifyExtensions >= 4.0.2",
       "SonarAnalyzer.CSharp >= 10.20.0.135146 <= 10.20.0.135146"
     ]
   },
@@ -697,7 +697,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "2.1.1",
+    "version": "2.1.2",
     "restore": {
       "projectUniqueName": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj",
       "projectName": "Pandatech.SharedKernel.Postgres",
@@ -777,7 +777,7 @@
           },
           "Pandatech.GridifyExtensions": {
             "target": "Package",
-            "version": "[4.0.1, )"
+            "version": "[4.0.2, )"
           },
           "SonarAnalyzer.CSharp": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

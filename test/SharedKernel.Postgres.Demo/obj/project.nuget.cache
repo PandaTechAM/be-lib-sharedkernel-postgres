@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4m9F37nLu/g=",
+  "dgSpecHash": "3r9gcStequY=",
   "success": true,
   "projectFilePath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Demo\\SharedKernel.Postgres.Demo.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,7 @@
     "C:\\Users\\AramSargsyan\\.nuget\\packages\\pandatech.efcore.audit\\3.0.0\\pandatech.efcore.audit.3.0.0.nupkg.sha512",
     "C:\\Users\\AramSargsyan\\.nuget\\packages\\pandatech.efcore.auditbase\\5.0.0\\pandatech.efcore.auditbase.5.0.0.nupkg.sha512",
     "C:\\Users\\AramSargsyan\\.nuget\\packages\\pandatech.efcore.postgresextensions\\7.0.0\\pandatech.efcore.postgresextensions.7.0.0.nupkg.sha512",
-    "C:\\Users\\AramSargsyan\\.nuget\\packages\\pandatech.gridifyextensions\\4.0.1\\pandatech.gridifyextensions.4.0.1.nupkg.sha512"
+    "C:\\Users\\AramSargsyan\\.nuget\\packages\\pandatech.gridifyextensions\\4.0.2\\pandatech.gridifyextensions.4.0.2.nupkg.sha512"
   ],
   "logs": []
 }
