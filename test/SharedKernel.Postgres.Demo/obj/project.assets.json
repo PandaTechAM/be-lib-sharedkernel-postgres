@@ -317,7 +317,7 @@
           }
         }
       },
-      "Pandatech.GridifyExtensions/4.0.0": {
+      "Pandatech.GridifyExtensions/4.0.1": {
         "type": "package",
         "dependencies": {
           "Gridify.EntityFramework": "2.17.2"
@@ -336,7 +336,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Pandatech.SharedKernel.Postgres/2.1.0": {
+      "Pandatech.SharedKernel.Postgres/2.1.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -347,7 +347,7 @@
           "Pandatech.EFCore.Audit": "3.0.0",
           "Pandatech.EFCore.AuditBase": "5.0.0",
           "Pandatech.EFCore.PostgresExtensions": "7.0.0",
-          "Pandatech.GridifyExtensions": "4.0.0"
+          "Pandatech.GridifyExtensions": "4.0.1"
         },
         "compile": {
           "bin/placeholder/Pandatech.SharedKernel.Postgres.dll": {}
@@ -713,10 +713,10 @@
         "pandatech.png"
       ]
     },
-    "Pandatech.GridifyExtensions/4.0.0": {
-      "sha512": "qQovPfr4g+H1ShrVX/tSB6VkWzoTDQMsVfimCLaDIqKtlDdC/NL+r6/PwWVHSO4hZRUFwpp38x2FODXXDCGUSg==",
+    "Pandatech.GridifyExtensions/4.0.1": {
+      "sha512": "Lp1TZ9ILPl5PQhHBBlj/tk8s0gJ9nlRJrGQae8+YmLafUfJdOAsF5wHgbrNz8xkUhDfy6bzV/wjX1x821wKKHg==",
       "type": "package",
-      "path": "pandatech.gridifyextensions/4.0.0",
+      "path": "pandatech.gridifyextensions/4.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -727,12 +727,12 @@
         "lib/net8.0/GridifyExtensions.xml",
         "lib/net9.0/GridifyExtensions.dll",
         "lib/net9.0/GridifyExtensions.xml",
-        "pandatech.gridifyextensions.4.0.0.nupkg.sha512",
+        "pandatech.gridifyextensions.4.0.1.nupkg.sha512",
         "pandatech.gridifyextensions.nuspec",
         "pandatech.png"
       ]
     },
-    "Pandatech.SharedKernel.Postgres/2.1.0": {
+    "Pandatech.SharedKernel.Postgres/2.1.1": {
       "type": "project",
       "path": "../../src/SharedKernel.Postgres/SharedKernel.Postgres.csproj",
       "msbuildProject": "../../src/SharedKernel.Postgres/SharedKernel.Postgres.csproj"
@@ -741,37 +741,43 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.AspNetCore.OpenApi >= 10.0.3",
-      "Pandatech.SharedKernel.Postgres >= 2.1.0"
+      "Pandatech.SharedKernel.Postgres >= 2.1.1"
     ]
   },
   "packageFolders": {
-    "/home/haik/.nuget/packages/": {}
+    "C:\\Users\\AramSargsyan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/haik/code/be-lib-sharedkernel-postgres/test/SharedKernel.Postgres.Demo/SharedKernel.Postgres.Demo.csproj",
+      "projectUniqueName": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Demo\\SharedKernel.Postgres.Demo.csproj",
       "projectName": "SharedKernel.Postgres.Demo",
-      "projectPath": "/home/haik/code/be-lib-sharedkernel-postgres/test/SharedKernel.Postgres.Demo/SharedKernel.Postgres.Demo.csproj",
-      "packagesPath": "/home/haik/.nuget/packages/",
-      "outputPath": "/home/haik/code/be-lib-sharedkernel-postgres/test/SharedKernel.Postgres.Demo/obj/",
+      "projectPath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Demo\\SharedKernel.Postgres.Demo.csproj",
+      "packagesPath": "C:\\Users\\AramSargsyan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\test\\SharedKernel.Postgres.Demo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/haik/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\AramSargsyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "/usr/lib64/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/SharedKernel.Postgres.csproj": {
-              "projectPath": "/home/haik/code/be-lib-sharedkernel-postgres/src/SharedKernel.Postgres/SharedKernel.Postgres.csproj"
+            "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj": {
+              "projectPath": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj"
             }
           }
         }
@@ -816,7 +822,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
