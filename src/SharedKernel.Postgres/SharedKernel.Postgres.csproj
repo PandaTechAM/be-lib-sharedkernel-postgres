@@ -21,7 +21,7 @@
         <PackageIcon>pandatech.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
 
-        <Version>2.1.1</Version>
+        <Version>2.1.2</Version>
         <PackageReleaseNotes>Gridify nuget updated.</PackageReleaseNotes>
 
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -52,7 +52,7 @@
         <PackageReference Include="Pandatech.EFCore.Audit" Version="3.0.0" />
         <PackageReference Include="Pandatech.EFCore.AuditBase" Version="5.0.0" />
         <PackageReference Include="Pandatech.EFCore.PostgresExtensions" Version="7.0.0" />
-        <PackageReference Include="Pandatech.GridifyExtensions" Version="4.0.1" />
+        <PackageReference Include="Pandatech.GridifyExtensions" Version="4.0.2" />
     </ItemGroup>
 
 
