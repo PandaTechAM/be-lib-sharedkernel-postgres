@@ -805,7 +805,7 @@
           }
         }
       },
-      "Pandatech.EFCore.Audit/3.0.1": {
+      "Pandatech.EFCore.Audit/3.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.0",
@@ -972,7 +972,7 @@
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Pandatech.SharedKernel.Postgres/2.1.3": {
+      "Pandatech.SharedKernel.Postgres/2.1.4": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -980,7 +980,7 @@
           "EFCore.BulkExtensions.PostgreSql": "10.0.1",
           "EFCore.NamingConventions": "10.0.1",
           "EntityFrameworkCore.Exceptions.PostgreSQL": "8.1.3",
-          "Pandatech.EFCore.Audit": "3.0.1",
+          "Pandatech.EFCore.Audit": "3.0.2",
           "Pandatech.EFCore.AuditBase": "5.0.0",
           "Pandatech.EFCore.PostgresExtensions": "7.0.0",
           "Pandatech.GridifyExtensions": "4.0.2"
@@ -2089,10 +2089,10 @@
         "postgresql.png"
       ]
     },
-    "Pandatech.EFCore.Audit/3.0.1": {
-      "sha512": "8LiFpZmmCnZBpV0+yLHe2wvj6dWH9d7Mr4+FWuSJGOM3FDhVpBYxwomDnXPHbqaT/FMj7jr/Kb1rsL5N0n0b8w==",
+    "Pandatech.EFCore.Audit/3.0.2": {
+      "sha512": "LY7ZWdlxiVooh6ilFktwo6q5Wt/Cm/dPLjKzzsRauUEvqfBg7NfBWYJldi5ugeebPpcoEhrWWlDjr+KNanKvFQ==",
       "type": "package",
-      "path": "pandatech.efcore.audit/3.0.1",
+      "path": "pandatech.efcore.audit/3.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2103,7 +2103,7 @@
         "lib/net8.0/EFCore.Audit.xml",
         "lib/net9.0/EFCore.Audit.dll",
         "lib/net9.0/EFCore.Audit.xml",
-        "pandatech.efcore.audit.3.0.1.nupkg.sha512",
+        "pandatech.efcore.audit.3.0.2.nupkg.sha512",
         "pandatech.efcore.audit.nuspec",
         "pandatech.png"
       ]
@@ -2305,7 +2305,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Pandatech.SharedKernel.Postgres/2.1.3": {
+    "Pandatech.SharedKernel.Postgres/2.1.4": {
       "type": "project",
       "path": "../../src/SharedKernel.Postgres/SharedKernel.Postgres.csproj",
       "msbuildProject": "../../src/SharedKernel.Postgres/SharedKernel.Postgres.csproj"
@@ -2314,7 +2314,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.NET.Test.Sdk >= 18.3.0",
-      "Pandatech.SharedKernel.Postgres >= 2.1.3",
+      "Pandatech.SharedKernel.Postgres >= 2.1.4",
       "coverlet.collector >= 8.0.0",
       "xunit >= 2.9.3",
       "xunit.runner.visualstudio >= 3.1.5"
