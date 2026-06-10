@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj": {
-      "version": "2.1.4",
+      "version": "2.1.5",
       "restore": {
         "projectUniqueName": "C:\\Users\\AramSargsyan\\Documents\\Project\\be-lib-sharedkernel-postgres\\src\\SharedKernel.Postgres\\SharedKernel.Postgres.csproj",
         "projectName": "Pandatech.SharedKernel.Postgres",
@@ -87,7 +87,7 @@
             },
             "Pandatech.GridifyExtensions": {
               "target": "Package",
-              "version": "[4.0.2, )"
+              "version": "[4.1.1, )"
             },
             "SonarAnalyzer.CSharp": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
