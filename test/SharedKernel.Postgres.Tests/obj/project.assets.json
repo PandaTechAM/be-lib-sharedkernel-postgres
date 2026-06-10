@@ -107,7 +107,7 @@
           }
         }
       },
-      "Gridify/2.17.2": {
+      "Gridify/2.19.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0"
@@ -119,11 +119,12 @@
           "lib/net10.0/Gridify.dll": {}
         }
       },
-      "Gridify.EntityFramework/2.17.2": {
+      "Gridify.EntityFramework/2.19.0": {
         "type": "package",
         "dependencies": {
-          "Gridify": "2.17.2",
-          "Microsoft.EntityFrameworkCore": "[10.0.0, 11.0.0)"
+          "Gridify": "2.19.0",
+          "Microsoft.EntityFrameworkCore": "[10.0.0, 11.0.0)",
+          "Microsoft.Extensions.Caching.Memory": "10.0.0"
         },
         "compile": {
           "lib/net10.0/Gridify.EntityFramework.dll": {}
@@ -857,10 +858,10 @@
           }
         }
       },
-      "Pandatech.GridifyExtensions/4.0.2": {
+      "Pandatech.GridifyExtensions/4.1.1": {
         "type": "package",
         "dependencies": {
-          "Gridify.EntityFramework": "2.17.2"
+          "Gridify.EntityFramework": "2.19.0"
         },
         "compile": {
           "lib/net10.0/GridifyExtensions.dll": {
@@ -972,7 +973,7 @@
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Pandatech.SharedKernel.Postgres/2.1.4": {
+      "Pandatech.SharedKernel.Postgres/2.1.5": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -983,7 +984,7 @@
           "Pandatech.EFCore.Audit": "3.0.2",
           "Pandatech.EFCore.AuditBase": "5.0.0",
           "Pandatech.EFCore.PostgresExtensions": "7.0.0",
-          "Pandatech.GridifyExtensions": "4.0.2"
+          "Pandatech.GridifyExtensions": "4.1.1"
         },
         "compile": {
           "bin/placeholder/Pandatech.SharedKernel.Postgres.dll": {}
@@ -1163,15 +1164,15 @@
         "lib/net8.0/EntityFramework.Exceptions.PostgreSQL.pdb"
       ]
     },
-    "Gridify/2.17.2": {
-      "sha512": "x1XyBFISE+DN/y6QmyVd38LNFIRWgEOicGZIuf80Xp1HH0ZcuX5a3s5HRXVc3lTdLMnydnksYX+N6WHsa8MKSQ==",
+    "Gridify/2.19.0": {
+      "sha512": "YLQROd/2txHFaQwl6yIr5QvBTfDaMwJ/ccCyrfruhHLSKiZrlFXMWrOo1oXXla6fkJW4gjo6lP73zCvqQUE3rA==",
       "type": "package",
-      "path": "gridify/2.17.2",
+      "path": "gridify/2.19.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "gridify.2.17.2.nupkg.sha512",
+        "gridify.2.19.0.nupkg.sha512",
         "gridify.nuspec",
         "lib/net10.0/Gridify.dll",
         "lib/net8.0/Gridify.dll",
@@ -1180,15 +1181,15 @@
         "lib/netstandard2.1/Gridify.dll"
       ]
     },
-    "Gridify.EntityFramework/2.17.2": {
-      "sha512": "OBVLw+mBPPRZmhrT1GDWAtGBLe7kNxaKPeXJItptkPpWQR+lsbsSrpSgiohlsDS278S8OUOz2s29z0ITCDWYqQ==",
+    "Gridify.EntityFramework/2.19.0": {
+      "sha512": "UKwQ6UqZBF7EhyqrE9sawnR+v62wBU+57gRvGf7t8iKFwaAcj3tvgVzXxgVK+HrrF2Eum6KS/G2deXcIzNte+w==",
       "type": "package",
-      "path": "gridify.entityframework/2.17.2",
+      "path": "gridify.entityframework/2.19.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "gridify.entityframework.2.17.2.nupkg.sha512",
+        "gridify.entityframework.2.19.0.nupkg.sha512",
         "gridify.entityframework.nuspec",
         "lib/net10.0/Gridify.EntityFramework.dll",
         "lib/net8.0/Gridify.EntityFramework.dll",
@@ -2146,10 +2147,10 @@
         "pandatech.png"
       ]
     },
-    "Pandatech.GridifyExtensions/4.0.2": {
-      "sha512": "ivxLt/pOEnb12Pjm9qsw80nzsKlNlB1NkaSI9fKDWsvrjp1G64xm1/7by0Q9C7DqCFU3I/iyCcsyQo4CeBYirg==",
+    "Pandatech.GridifyExtensions/4.1.1": {
+      "sha512": "77dn7hrhYOuoVXYEg8lZegvFb8/QmFTcoIFut/vKi5tWL1CtgwS6Lqa0UZLNkFyQ9VOSo3PVCs6OkGVNicrHgA==",
       "type": "package",
-      "path": "pandatech.gridifyextensions/4.0.2",
+      "path": "pandatech.gridifyextensions/4.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2160,7 +2161,7 @@
         "lib/net8.0/GridifyExtensions.xml",
         "lib/net9.0/GridifyExtensions.dll",
         "lib/net9.0/GridifyExtensions.xml",
-        "pandatech.gridifyextensions.4.0.2.nupkg.sha512",
+        "pandatech.gridifyextensions.4.1.1.nupkg.sha512",
         "pandatech.gridifyextensions.nuspec",
         "pandatech.png"
       ]
@@ -2305,7 +2306,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Pandatech.SharedKernel.Postgres/2.1.4": {
+    "Pandatech.SharedKernel.Postgres/2.1.5": {
       "type": "project",
       "path": "../../src/SharedKernel.Postgres/SharedKernel.Postgres.csproj",
       "msbuildProject": "../../src/SharedKernel.Postgres/SharedKernel.Postgres.csproj"
@@ -2314,7 +2315,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.NET.Test.Sdk >= 18.3.0",
-      "Pandatech.SharedKernel.Postgres >= 2.1.4",
+      "Pandatech.SharedKernel.Postgres >= 2.1.5",
       "coverlet.collector >= 8.0.0",
       "xunit >= 2.9.3",
       "xunit.runner.visualstudio >= 3.1.5"
