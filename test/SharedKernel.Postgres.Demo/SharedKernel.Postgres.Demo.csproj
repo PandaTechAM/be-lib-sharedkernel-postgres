@@ -1,18 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-    <PropertyGroup>
-        <TargetFramework>net10.0</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <InvariantGlobalization>true</InvariantGlobalization>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
 
-    <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
-    </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9"/>
+    <!-- Pin to a patched same-major (2.x) Microsoft.OpenApi: AspNetCore.OpenApi 10.0.9 transitively
+         resolves 2.0.0 which has NU1903 (GHSA-v5pm-xwqc-g5wc). 2.9.0 is the latest 2.x, clears the audit.
+         Do NOT let Rider Code Cleanup strip this as a "redundant" transitive ref — it re-opens the CVE. -->
+    <PackageReference Include="Microsoft.OpenApi" Version="2.9.0"/>
+  </ItemGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\..\src\SharedKernel.Postgres\SharedKernel.Postgres.csproj"/>
-    </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SharedKernel.Postgres\SharedKernel.Postgres.csproj"/>
+  </ItemGroup>
 
 </Project>

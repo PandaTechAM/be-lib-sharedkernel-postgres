@@ -1,68 +1,68 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net10.0</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
 
-        <IsPackable>true</IsPackable>
+    <IsPackable>true</IsPackable>
 
-        <PackageId>Pandatech.SharedKernel.Postgres</PackageId>
-        <Authors>Pandatech</Authors>
-        <Description>PostgreSQL integration helpers for ASP.NET Core 10: DbContext registration with or without pooling and audit trail, migrations, health checks, snake_case naming, query locks, exception mapping, and bulk extensions.</Description>
-        <PackageTags>postgresql;efcore;entity-framework;npgsql;migrations;health-checks;audit;shared-kernel;pandatech</PackageTags>
+    <PackageId>Pandatech.SharedKernel.Postgres</PackageId>
+    <Authors>Pandatech</Authors>
+    <Description>PostgreSQL integration helpers for ASP.NET Core 10: DbContext registration with or without pooling and audit trail, migrations, health checks, snake_case naming, query locks, exception mapping, and bulk extensions.</Description>
+    <PackageTags>postgresql;efcore;entity-framework;npgsql;migrations;health-checks;audit;shared-kernel;pandatech</PackageTags>
 
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/PandaTechAM/be-lib-sharedkernel-postgres</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/PandaTechAM/be-lib-sharedkernel-postgres</PackageProjectUrl>
-        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/PandaTechAM/be-lib-sharedkernel-postgres</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/PandaTechAM/be-lib-sharedkernel-postgres</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
 
-        <PackageIcon>pandatech.png</PackageIcon>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>pandatech.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 
-        <Version>2.1.5</Version>
-        <PackageReleaseNotes>Updated GridifyExtensions nuget.</PackageReleaseNotes>
+    <Version>2.1.6</Version>
+    <PackageReleaseNotes>Tooling modernization: dependency updates, xUnit v3 test migration, standardized editorconfig/gitignore/global.json.</PackageReleaseNotes>
 
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-        <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
 
-        <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
-        <RunAnalyzersDuringLiveAnalysis>true</RunAnalyzersDuringLiveAnalysis>
-        <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
-    </PropertyGroup>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>true</RunAnalyzersDuringLiveAnalysis>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+  </PropertyGroup>
 
-    <ItemGroup>
-        <None Include="..\..\pandatech.png" Pack="true" PackagePath="\" />
-        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
-    </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\pandatech.png" Pack="true" PackagePath="\"/>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
-    <!-- ASP.NET Core types (IApplicationBuilder, WebApplicationBuilder, etc.) come from the shared framework -->
-    <ItemGroup>
-        <FrameworkReference Include="Microsoft.AspNetCore.App" />
-    </ItemGroup>
+  <!-- ASP.NET Core types (IApplicationBuilder, WebApplicationBuilder, etc.) come from the shared framework -->
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+  </ItemGroup>
 
-    <ItemGroup>
-        <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="9.0.0" />
-        <PackageReference Include="EFCore.BulkExtensions.PostgreSql" Version="10.0.1" />
-        <PackageReference Include="EFCore.NamingConventions" Version="10.0.1" />
-        <PackageReference Include="EntityFrameworkCore.Exceptions.PostgreSQL" Version="8.1.3" />
-        <PackageReference Include="Pandatech.EFCore.Audit" Version="3.0.2" />
-        <PackageReference Include="Pandatech.EFCore.AuditBase" Version="5.0.0" />
-        <PackageReference Include="Pandatech.EFCore.PostgresExtensions" Version="7.0.0" />
-        <PackageReference Include="Pandatech.GridifyExtensions" Version="4.1.1" />
-    </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="9.0.0"/>
+    <PackageReference Include="EFCore.BulkExtensions.PostgreSql" Version="10.0.1"/>
+    <PackageReference Include="EFCore.NamingConventions" Version="10.0.1"/>
+    <PackageReference Include="EntityFrameworkCore.Exceptions.PostgreSQL" Version="10.0.1"/>
+    <PackageReference Include="Pandatech.EFCore.Audit" Version="3.0.4"/>
+    <PackageReference Include="Pandatech.EFCore.AuditBase" Version="5.0.1"/>
+    <PackageReference Include="Pandatech.EFCore.PostgresExtensions" Version="7.0.2"/>
+    <PackageReference Include="Pandatech.GridifyExtensions" Version="4.1.3"/>
+  </ItemGroup>
 
 
-    <!-- Analyzers only — never shipped to consumers -->
-    <ItemGroup>
-        <PackageReference Include="Pandatech.Analyzers" Version="[2.1.0]" PrivateAssets="all" />
-        <PackageReference Include="SonarAnalyzer.CSharp" Version="[10.20.0.135146]">
-            <PrivateAssets>all</PrivateAssets>
-            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-        </PackageReference>
-    </ItemGroup>
+  <!-- Analyzers only — never shipped to consumers -->
+  <ItemGroup>
+    <PackageReference Include="Pandatech.Analyzers" Version="[2.1.0]" PrivateAssets="all"/>
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="[10.28.0.143324]">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>
