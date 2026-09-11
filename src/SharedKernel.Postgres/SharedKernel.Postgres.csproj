@@ -21,8 +21,8 @@
     <PackageIcon>pandatech.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
 
-    <Version>2.1.8</Version>
-    <PackageReleaseNotes>Updated Pandatech.GridifyExtensions to 4.3.0 (distinct-values search hits ranked: exact, starts with, word starts with, rest).</PackageReleaseNotes>
+    <Version>2.1.9</Version>
+    <PackageReleaseNotes>Updated Pandatech.EFCore.Audit to 3.1.0 (deletes carry the whole entity, soft-delete markers, pending audit entries dropped on rollback, failed saves and pool reuse).</PackageReleaseNotes>
 
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
@@ -49,7 +49,7 @@
     <PackageReference Include="EFCore.BulkExtensions.PostgreSql" Version="10.0.1"/>
     <PackageReference Include="EFCore.NamingConventions" Version="10.0.1"/>
     <PackageReference Include="EntityFrameworkCore.Exceptions.PostgreSQL" Version="10.0.1"/>
-    <PackageReference Include="Pandatech.EFCore.Audit" Version="3.0.4"/>
+    <PackageReference Include="Pandatech.EFCore.Audit" Version="3.1.0"/>
     <PackageReference Include="Pandatech.EFCore.AuditBase" Version="5.0.1"/>
     <PackageReference Include="Pandatech.EFCore.PostgresExtensions" Version="7.0.2"/>
     <PackageReference Include="Pandatech.GridifyExtensions" Version="4.3.0"/>
